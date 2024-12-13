@@ -105,7 +105,7 @@
 # print ("=======================================================")
 # print("")
 
-mars_temperature = "The highest temperature on Mars is about 30 C"
-
-for temps in mars_temperature:
-  print (temps[-1])
+temperatures = "Mars Average Temperature is -60 C"
+parts = temperatures.split(':')
+print(parts)
+print(parts[-1])
