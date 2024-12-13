@@ -100,3 +100,10 @@ name = ["SubashKumarK", "Kennedy", "John", "Marcus", "Killer"]
 for person in name:
   if "k" in person.lower():  
       print(person)
+
+print("")
+print ("=======================================================")
+print("")
+
+mars_temperature = "The highest temperature on Mars is about 30 C"
+
