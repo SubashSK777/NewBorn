@@ -89,4 +89,4 @@ print("")
 temperatures = "Alakazambarkadabradubaididubidiadumwiaht"
 temperatures_list = temperatures.split("a")
 print(temperatures)
-print(temperatures_list[2:1:])
+print(temperatures_list[2:2:])
