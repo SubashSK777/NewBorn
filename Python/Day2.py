@@ -113,4 +113,8 @@
 text1 = "loop"
 text2 = "pool"
 
-char = list(text1)
+char1 = list(text1)
+char2 = list(text2)
+
+if sorted(char1) == sorted(char2):
+  print ("It is an Anagram")
