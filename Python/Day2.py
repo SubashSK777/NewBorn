@@ -67,3 +67,14 @@ print("")
 temperatures = "Alakazambarkadabradubaididubidiadumwiaht"
 temperatures_list = temperatures.split("a")
 print(temperatures_list)
+
+print("")
+print ("=======================================================")
+print("")
+
+print("Moon" in "This text will describe facts about the Moon")
+
+print("")
+print ("=======================================================")
+print("")
+
