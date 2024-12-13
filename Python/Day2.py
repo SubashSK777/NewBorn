@@ -6,9 +6,9 @@ print("")
 print ("=======================================================")
 print("")
 
-print("Welcome to the greeter program")
-name = input("Enter your name: ")
-print("Greetings " + name)
+# print("Welcome to the greeter program")
+# name = input("Enter your name: ")
+# print("Greetings " + name)
 
 print("")
 print ("=======================================================")
@@ -29,7 +29,7 @@ print("")
 
 a = 27
 b = 93
-c = 38
+c = 380
 
 if a > b:
   print("a is Greatest")
