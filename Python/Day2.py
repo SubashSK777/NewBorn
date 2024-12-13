@@ -105,7 +105,12 @@
 # print ("=======================================================")
 # print("")
 
-temperatures = "Mars Average Temperature is 60 C"
-for parts in temperatures.split():
-  if parts.isnumeric():
-    print(parts)
+# temperatures = "Mars Average Temperature is 60 C"
+# for parts in temperatures.split():
+#   if parts.isnumeric():
+#     print(parts)
+
+text1 = "loop"
+text2 = "pool"
+
+char = spilt(text1)
