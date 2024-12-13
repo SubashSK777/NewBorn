@@ -40,4 +40,8 @@ if a > b:
   else:
     print("c is the Greatest")
 
-elif 
+elif b > c:
+  print("b is the Greatest")
+  
+else:
+  print("c is the Greatest")
