@@ -78,3 +78,6 @@ print("")
 print ("=======================================================")
 print("")
 
+text = "This text will describe facts aboutMoonthe Moon"
+count = text.count("Moon")
+print(count)
