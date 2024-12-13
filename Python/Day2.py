@@ -110,13 +110,5 @@
 #   if parts.isnumeric():
 #     print(parts)
 
-text1 = str(input("Enter a String: "))
-text2 = str(input("Enter another String: "))
-
-char1 = sorted(list(text1.lower()))
-char2 = sorted(list(text2.lower()))
-
-if char1 == char2:
-  print ("It is an Anagram")
-else:
-  print ("It is not an Anagram")
+text1 = input("Enter a word: ").replace(" ", "").lower()
+text2 = input("Enter the 2nd word: ").replace(" ", "")
