@@ -113,4 +113,4 @@
 text1 = "loop"
 text2 = "pool"
 
-char = spilt(text1)
+char = list(text1)
