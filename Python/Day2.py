@@ -81,3 +81,12 @@ print("")
 text = "This text will describe facts aboutMoonthe Moon"
 count = text.count("Moon")
 print(count)
+
+print("")
+print ("=======================================================")
+print("")
+
+temperatures = "Alakazambarkadabradubaididubidiadumwiaht"
+temperatures_list = temperatures.split("a")
+print(temperatures)
+print(temperatures_list)
