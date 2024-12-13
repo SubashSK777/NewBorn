@@ -64,6 +64,6 @@ print("")
 print ("=======================================================")
 print("")
 
-temperatures = "Alakazambarkadabradubi"
-temperatures_list = temperatures.split()
+temperatures = "Alakazambarkadabradubaididubidiadumwiaht"
+temperatures_list = temperatures.split("a")
 print(temperatures_list)
