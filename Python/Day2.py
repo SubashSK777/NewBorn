@@ -46,7 +46,11 @@ elif b > c:
 else:
   print("c is the Greatest")
   
-  
+print("")
+print ("=======================================================")
+print("")
+
 fact = "The Moon has no atmosphere. "
 fact += "No sound can be heard on the Moon."
 print(fact)
+
