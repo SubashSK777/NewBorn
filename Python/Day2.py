@@ -98,5 +98,5 @@ print("")
 name = "SubashKumarK"
 
 for last_name in name.split():
-  if count(last_name.find(k)):
-    print 
+  if count(last_name.find("k")):
+    print (last_name)
