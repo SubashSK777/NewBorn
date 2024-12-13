@@ -95,3 +95,7 @@ print("")
 print ("=======================================================")
 print("")
 
+name = "SubashKumarK"
+
+for last_name in name.split():
+  if last_name 
