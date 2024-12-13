@@ -110,11 +110,13 @@
 #   if parts.isnumeric():
 #     print(parts)
 
-text1 = "loop"
-text2 = "pool"
+text1 = str(input("Enter a Strng"))
+text2 = str(input("Enter another String"))
 
 char1 = list(text1)
 char2 = list(text2)
 
 if sorted(char1) == sorted(char2):
   print ("It is an Anagram")
+else:
+  print ("It is not an Anagram")
