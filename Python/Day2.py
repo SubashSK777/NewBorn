@@ -95,8 +95,8 @@ print("")
 print ("=======================================================")
 print("")
 
-name = ["SubashKumarK", "Kennedy", 
+name = ["SubashKumarK", "Kennedy", "John", "Marcus", "Killer"]
 
 # Check for 'k' or 'K' in the name
-if "k" in name.lower():  # Convert to lowercase for case-insensitive check
+if "k" in name:  # Convert to lowercase for case-insensitive check
     print(name)
