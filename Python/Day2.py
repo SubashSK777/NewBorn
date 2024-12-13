@@ -54,3 +54,13 @@ fact = "The Moon has no atmosphere. "
 fact += "No sound can be heard on the Moon."
 print(fact)
 
+print("")
+print ("=======================================================")
+print("")
+
+print("temperatures and facts about the moon".title())  
+
+
+temperatures = "Daylight: 260 F Nighttime: -280 F"
+temperatures_list = temperatures.split()
+print(temperatures_list)
