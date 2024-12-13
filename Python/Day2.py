@@ -113,8 +113,8 @@
 text1 = str(input("Enter a String: "))
 text2 = str(input("Enter another String: "))
 
-char1 = sorted(list(text1.islower()))
-char2 = sorted(list(text2.islower()))
+char1 = sorted(list(text1.lower()))
+char2 = sorted(list(text2.lower()))
 
 if char1 == char2:
   print ("It is an Anagram")
