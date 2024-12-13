@@ -99,4 +99,4 @@ name = ["SubashKumarK", "Kennedy", "John", "Marcus", "Killer"]
 
 for person in name:
   if "k" in person.lower():  
-      print(name)
+      print(person)
