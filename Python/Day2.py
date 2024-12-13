@@ -111,4 +111,5 @@
 #     print(parts)
 
 text1 = input("Enter a word: ").replace(" ", "").lower()
-text2 = input("Enter the 2nd word: ").replace(" ", "")
+text2 = input("Enter the 2nd word: ").replace(" ", "").lower()
+
