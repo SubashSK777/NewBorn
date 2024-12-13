@@ -108,4 +108,4 @@
 mars_temperature = "The highest temperature on Mars is about 30 C"
 
 for temps in mars_temperature:
-  print (temps[::-1])
+  print (temps[-1])
