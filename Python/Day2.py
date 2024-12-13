@@ -90,3 +90,8 @@ temperatures = "Alakazambarkadabradubaididubidiadumwiaht"
 temperatures_list = temperatures.split("a")
 print(temperatures)
 print(temperatures_list[2:2:])
+
+print("")
+print ("=======================================================")
+print("")
+
