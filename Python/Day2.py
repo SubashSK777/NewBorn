@@ -60,7 +60,10 @@ print("")
 
 print("temperatures and facts about the moon".title())  
 
+print("")
+print ("=======================================================")
+print("")
 
-temperatures = "Daylight: 260 F Nighttime: -280 F"
+temperatures = "Alakazambarkadabradubi"
 temperatures_list = temperatures.split()
 print(temperatures_list)
