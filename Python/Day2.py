@@ -106,6 +106,6 @@
 # print("")
 
 temperatures = "Mars Average Temperature is -60 C"
-parts = temperatures.split()
-if parts.isnumeric():
-  print(parts)
+for parts in temperatures.split():
+  if parts.isnumeric():
+    print(parts)
