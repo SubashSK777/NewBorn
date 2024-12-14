@@ -7,7 +7,7 @@ public class AvgOfFive {
     if (Avg > 50) {
       return "It is Greater Than 50";
     } else {
-      return "It is Smaller Than 50"
+      return "It is Smaller Than 50";
     }
 
   }
