@@ -5,9 +5,11 @@ public class LargestOfThree {
 
   public static int Greatest (int x, int y, int z) {
     if ( int x > int y) {
-      return x;
-
-      if (int)
+      if (int x > int z) {
+        return x;
+      }
+    } else if (int y > int c) {
+      return y;
     }
   }
 }
