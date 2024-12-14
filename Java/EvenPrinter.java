@@ -7,7 +7,7 @@ public class EvenPrinter {
     int n = sc.nextInt();
     System.out.println(Eventer(n));
   }
-  public static int Eventer (int n) {
+  public static String Eventer (int n) {
     int i = 0;
     while (i < n) {
       return i;
