@@ -5,11 +5,12 @@ public class EvenPrinter {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter a Number: ");
     int n = sc.nextInt();
+    System.out.println(Eventer(n));
   }
   public static int Eventer (int n) {
     int i = 0;
     while (i < n) {
-      System.out.println(i);
+      return i;
       i = i + 2;
     }
   }
