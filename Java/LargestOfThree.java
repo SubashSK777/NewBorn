@@ -10,6 +10,8 @@ public class LargestOfThree {
       }
     } else if (int y > int c) {
       return y;
+    } else {
+      return c;
     }
   }
 }
