@@ -4,3 +4,4 @@
 # text = "Subash Kumarrrrrrrrr Subash Bash mar".lower()
 # print (text.count("r"))
 
+text = "LOp"
