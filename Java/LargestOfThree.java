@@ -1,6 +1,6 @@
 public class LargestOfThree {
   public static void main(String[] args) {
-    System.out.println(Greatest(27, 56, 0));
+    System.out.println(Greatest(27, 56, 38));
   }
 
   public static int Greatest (int x, int y, int z) {
@@ -12,6 +12,4 @@ public class LargestOfThree {
       return z;
     }
   }
-  
-  
 }
