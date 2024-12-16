@@ -38,10 +38,15 @@
 
 #==============================================================================================
 
-P = int(input("Enter Principle Amount: "))
-R = int(input("Enter the Rate of Intrest: "))
-T = int(input("Enter the Total Time (in Years): "))
+# P = int(input("Enter Principle Amount: "))
+# R = int(input("Enter the Rate of Intrest: "))
+# T = int(input("Enter the Total Time (in Years): "))
 
-SI = (P * R * T)/100
+# SI = (P * R * T)/100
 
-print(f"Simple Intrest is {SI}")
+# print(f"Simple Intrest is {SI}")
+
+
+#==============================================================================================
+
+
