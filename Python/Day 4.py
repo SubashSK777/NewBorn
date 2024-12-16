@@ -40,3 +40,6 @@
 
 P = int(input("Enter Principle Amount: "))
 R = int(input("Enter the Rate of Intrest: "))
+T = int(input("Enter the Total Time: "))
+
+SI = (P * R * T)/100
