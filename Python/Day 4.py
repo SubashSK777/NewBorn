@@ -61,7 +61,7 @@
 
 n = int(input("Enter a Number: "))
 
-if n % n == 0 and n % 1 == 0:
+if n / n == 0 and n / 1 == 0:
   print(f"{n} is a Prime Number")
 else:
   print(f"{n} is not a Prime Number")
