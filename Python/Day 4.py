@@ -7,5 +7,5 @@ oper = int(input(""" Select and Operation to Perform
                  3. Exit """))
 
 if oper == 1:
-  print
+  print()
   
