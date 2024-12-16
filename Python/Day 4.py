@@ -7,5 +7,6 @@ oper = int(input(""" Select and Operation to Perform
                  3. Exit """))
 
 if oper == 1:
-  print("The Sum of )
+  print("The Sum of 2 Numbers is " + (x+y))
+elif oper == 2
   
