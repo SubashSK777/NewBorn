@@ -8,5 +8,8 @@ oper = int(input(""" Select and Operation to Perform
 
 if oper == 1:
   print("The Sum of 2 Numbers is " + (x+y))
-elif oper == 2
+elif oper == 2:
+  print("The Difference of 2 Numbers is " + (x-y))
+else: 
+  break
   
