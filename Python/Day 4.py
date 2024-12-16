@@ -19,5 +19,5 @@
 
 n = int(input("Enter a Number: "))
 
-for i in 10:
-  print(f"{n} x {1}")
+for i in range(11):
+  print(f"{n} x {i} = {i*n}")
