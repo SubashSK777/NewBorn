@@ -39,3 +39,4 @@
 #==============================================================================================
 
 P = int(input("Enter Principle Amount: "))
+R = int(input("Enter the Rate of Intrest: "))
