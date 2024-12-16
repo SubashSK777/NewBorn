@@ -17,7 +17,12 @@
 #     print("Invalid choice. Please try again.")
 
 
-n = int(input("Enter a Number: "))
+# n = int(input("Enter a Number: "))
 
-for i in range(11):
-  print(f"{n} x {i} = {i*n}")
+# for i in range(11):
+#   print(f"{n} x {i} = {i*n}")
+
+n = int(input("Enter a NUmber: "))
+
+if n % 2 == 0:
+  print("It is Even")
