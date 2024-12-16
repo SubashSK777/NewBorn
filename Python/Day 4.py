@@ -50,11 +50,11 @@
 #==============================================================================================
 
 
-r = int(input("Enter the Radius of Circle: "))
-circum = 2*3.14*r
-area = 3.14*(r**2)
-print(f"The Area of Circle is {area}")
-print(f"")
+# r = int(input("Enter the Radius of Circle: "))
+# circum = 2*3.14*r
+# area = 3.14*(r**2)
+# print(f"The Area of Circle is {area}")
+# print(f"The Circumfrence of Circle is {circum}")
 
 #==============================================================================================
 
