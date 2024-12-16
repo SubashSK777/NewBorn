@@ -50,4 +50,6 @@
 #==============================================================================================
 
 
-c = int(input("Enter the Radius of Circle: "))
+r = int(input("Enter the Radius of Circle: "))
+area = 3.14 * (r * r)
+print(f"The Area of Circle is {r}")
