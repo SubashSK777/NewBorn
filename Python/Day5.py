@@ -57,5 +57,10 @@
 
 # ================================================================================
 
-txt = "hello Bello macho nacho senor"
-print("bello" in txt.lower())
+# txt = "hello Bello macho nacho senor"
+# print("bello" in txt.lower())
+
+# ================================================================================
+
+txt = ("I dont linke you", "I dont hate you particularly either")
+print(' ')
