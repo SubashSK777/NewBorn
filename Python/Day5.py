@@ -33,5 +33,10 @@
 
 # ================================================================================
 
-txt = "Today temperature at Coimbatore is : 80F"
-print(txt.split(":"))
+# txt = "Today temperature at Coimbatore is : 80F"
+# print(txt.split(":"))
+
+# ================================================================================
+
+
+
