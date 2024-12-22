@@ -29,4 +29,4 @@ print("ueg OQNS ideho josQUIH ocdjA Ocno".lower())
 
 print("ueg OQNS ideho josQUIH ocdjA Ocno".upper())
 
-print("ueg OQNS ideho josQUIH ocdjA Ocno".lower())
+print("ueg OQNS ideho josQUIH ocdjA Ocno".title())
