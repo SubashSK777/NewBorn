@@ -45,12 +45,14 @@
 
 # ================================================================================
 
-txt = "Hail Hydra why is it like this -100 is not 932 but -10 and -1 even -0"
-print(txt.startswith('-'))
-print(txt.endswith('0'))
+# txt = "Hail Hydra why is it like this -100 is not 932 but -10 and -1 even -0"
+# print(txt.startswith('-'))
+# print(txt.endswith('0'))
 
-result = [char for char in txt if char == 'i']
-print(result)
+# result = [char for char in txt if char == 'i']
+# print(result)
 
-repl_txt = txt.replace('H', "M" and 'i', 'u')
-print(repl_txt)
+# repl_txt = txt.replace('H', "M" and 'i', 'u')
+# print(repl_txt)
+
+# ================================================================================
