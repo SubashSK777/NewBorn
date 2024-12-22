@@ -45,3 +45,5 @@
 
 # ================================================================================
 
+txt = "Hail Hydra why is it like this -100 is not 932 but -10 and -1 even -0"
+spl_txt = txt.s[]
