@@ -62,5 +62,8 @@
 
 # ================================================================================
 
-txt = ("I dont linke you", "I dont hate you particularly either")
-print(' ')
+# txt = ("I dont like you", "I dont hate you particularly either")
+# print(' but '.join(txt))
+
+# ================================================================================
+
