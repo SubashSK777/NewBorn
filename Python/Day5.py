@@ -4,7 +4,9 @@
 
 # ================================================================================
 
-txt = "tuaacd iawoqc huirg sozdjn iu c"
-split_txt = txt.split('\n')
-print(split_txt)
+# txt = "tuaascd iawoqc hsuirg sozdjn iu c"
+# split_txt = txt.split('s')
+# print(split_txt)
+
+# ================================================================================
 
