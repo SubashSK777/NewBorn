@@ -10,8 +10,8 @@ public class EvenPrinter {
   public static int Eventer (int n) {
     int i = 0;
     while (i < n) {
-      return "i";
-      String i = i + 2;
+      return i;
+      int i = i + 2;
     }
   }
 }
