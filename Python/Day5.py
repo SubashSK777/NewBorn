@@ -52,5 +52,5 @@ print(txt.endswith('0'))
 result = [char for char in txt if char == 'i']
 print(result)
 
-repl_txt = txt.replace('H', "M" and '')
+repl_txt = txt.replace('H', "M" and 'i', 'u')
 print(repl_txt)
