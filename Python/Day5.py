@@ -14,4 +14,5 @@
 
 # ================================================================================
 
-txt = ""
+txt = "lorem ipsumu anyd quaapr tiwns"
+print(txt.find("quaapr"))
