@@ -56,3 +56,6 @@
 # print(repl_txt)
 
 # ================================================================================
+
+txt = "hello Bello macho nacho senor"
+print("bello" in txt.lower())
