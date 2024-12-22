@@ -19,8 +19,14 @@
 
 # ================================================================================
 
-txt = "qwkdi wije oiqjp apqo qpl cnoi biout zwmomx vthi"
-print(txt.count('t'))
-print(txt.count('i'))
+# txt = "qwkdi wije oiqjp apqo qpl cnoi biout zwmomx vthi"
+# print(txt.count('t'))
+# print(txt.count('i'))
 
 # ================================================================================
+
+print("ueg OQNS ideho josQUIH ocdjA Ocno".lower())
+
+print("ueg OQNS ideho josQUIH ocdjA Ocno".upper())
+
+print("ueg OQNS ideho josQUIH ocdjA Ocno".lower())
