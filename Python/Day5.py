@@ -48,3 +48,4 @@
 txt = "Hail Hydra why is it like this -100 is not 932 but -10 and -1 even -0"
 print(txt.startswith('-'))
 print(txt.endswith('0'))
+print(())
