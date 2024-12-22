@@ -38,7 +38,7 @@
 
 # ================================================================================
 
-txt = "lorem is not null its  but also 10 while all thinks its 0"
+txt = "lorem is not null its 0.56 but also 10 while all thinks its 0"
 for num in txt.split():
   if num.isdecimal():
     print (num)
