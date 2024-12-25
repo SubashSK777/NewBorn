@@ -5,7 +5,11 @@ arr = array('i', [])
 
 n = int(input("Enter the Number of Inputs: "))
 
-
+for i  in range(n):
+  x = int(input("Enter the Numebr: "))
+  arr.append(x)
+  
+print(arr)
 
 
 
