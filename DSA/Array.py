@@ -5,11 +5,13 @@ arr = array('i', [])
 
 
 def store():
-  x = int(input("Enter a Number: "))
-  arr.append(x)
-  store()
-  
-print(arr)
+  while True:
+    try:
+      x = int(input("Enter a Number: "))
+      arr.append(x)
+      store()
+    except: 
+      print(arr)
 
 
 
