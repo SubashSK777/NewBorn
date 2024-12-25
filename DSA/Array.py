@@ -2,7 +2,7 @@
 from array import *
 
 arr = array('i', [])
-store()
+
 
 def store():
   x = int(input("Enter a Number: "))
