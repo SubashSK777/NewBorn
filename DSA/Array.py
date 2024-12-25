@@ -12,8 +12,9 @@ def store():
       store()
     except: 
       print(arr)
+      break
 
-
+store()
 
 
 
