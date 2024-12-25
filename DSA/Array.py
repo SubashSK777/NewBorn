@@ -11,7 +11,7 @@ while i < len(arr):
   NewArr.append(b)
   i += 1
 
-print
+print(NewArr)
 
 # NewArr = array(arr.typecode, (a for a in arr))
 # for ab in NewArr:
