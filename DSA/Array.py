@@ -9,7 +9,10 @@ for i  in range(n):
   x = int(input("Enter the Number: "))
   arr.append(x)
   
-print(arr)
+find = int(input("Enter the Value to find: "))
+
+for a in arr:
+  if 
 
 
 # def store():
