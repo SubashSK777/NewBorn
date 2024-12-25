@@ -11,11 +11,8 @@ for i  in range(n):
   
 find = int(input("Enter the Value to find: "))
 
-for a in arr:
-  if a == find:
-    print(arr[a])
-  else:
-    print("Value Not Found!")
+if find in arr:
+  print(f"The Value {find}")
 
 
 # def store():
