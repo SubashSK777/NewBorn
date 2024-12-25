@@ -3,18 +3,7 @@ from array import *
 
 arr = array('i', [])
 
-
-def store():
-  while True:
-    try:
-      x = int(input("Enter a Number: "))
-      arr.append(x)
-      store()
-    except: 
-      print(arr)
-      break
-
-store()
+n = int(input("Enter the Number of Inputs: "))
 
 
 
@@ -27,6 +16,25 @@ store()
 
 
 
+
+
+
+
+
+
+
+
+# def store():
+#   while True:
+#     try:
+#       x = int(input("Enter a Number: "))
+#       arr.append(x)
+#       store()
+#     except: 
+#       print(arr)
+#       break
+
+# store()
 
 # NewArr = array(arr.typecode, [])
 
