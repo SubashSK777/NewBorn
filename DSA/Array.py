@@ -1,21 +1,37 @@
 #ARRAYYYYYYYYYY
 from numpy import * 
 
-arr = array('i', [])
+arr1 = array([1, 2, 3, 4, 5])
 
-n = int(input("Enter the Number of Inputs: "))
 
-for i  in range(n):
-  x = int(input("Enter the Number: "))
-  arr.append(x)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# n = int(input("Enter the Number of Inputs: "))
+
+# for i  in range(n):
+#   x = int(input("Enter the Number: "))
+#   arr.append(x)
   
-find = int(input("Enter the Value to find: "))
+# find = int(input("Enter the Value to find: "))
 
-if find in arr:
-  print(f"The Value {find} is at Index {arr.index(find)}")
-else:
-  print("Value Not Found")
-
+# if find in arr:
+#   print(f"The Value {find} is at Index {arr.index(find)}")
+# else:
+#   print("Value Not Found")
 
 # def store():
 #   while True:
