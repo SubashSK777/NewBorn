@@ -3,7 +3,9 @@ from array import *
 
 arr = array('i', [])
 
-x = int(input("Enter a Number: "))
+def store():
+  x = int(input("Enter a Number: "))
+  
 
 
 
