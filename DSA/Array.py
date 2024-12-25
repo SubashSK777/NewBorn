@@ -1,5 +1,5 @@
 #ARRAYYYYYYYYYY
-from array import *
+from numpy import * 
 
 arr = array('i', [])
 
