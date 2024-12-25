@@ -12,7 +12,7 @@ for i  in range(n):
 find = int(input("Enter the Value to find: "))
 
 if find in arr:
-  print(f"The Value {find} is at index {arr.index(find)}")
+  print(f"The Value {find} is at Index {arr.index(find)}")
 else:
   print("Value Not Found")
 
