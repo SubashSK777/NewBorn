@@ -8,6 +8,10 @@ public class ArayPractice {
     public String Director;
     
 
-    public DVD(String name, int ReleaseYear, )
+    public DVD(String name, int ReleaseYear, String Director) {
+      this.name = name;
+      this.ReleaseYear = ReleaseYear;
+      this.Director = Director;
+    }
   }
 }
