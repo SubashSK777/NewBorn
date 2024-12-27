@@ -1,9 +1,8 @@
 #ARRAYYYYYYYYYY
 
+from numpy import * 
 
-# from numpy import * 
-
-
+arr = array[]
 
 
 
