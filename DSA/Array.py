@@ -1,10 +1,4 @@
 #ARRAYYYYYYYYYY
-from numpy import * 
-
-arr1 = array([1, 2, 3, 4, 5])
-arr2 = array([6, 7, 8, 9, 0])
-
-print(concatenate([arr1, arr2]))
 
 
 
@@ -22,6 +16,21 @@ print(concatenate([arr1, arr2]))
 
 
 
+
+
+
+
+
+
+
+
+
+# from numpy import * 
+
+# arr1 = array([1, 2, 3, 4, 5])
+# arr2 = array([6, 7, 8, 9, 0])
+
+# print(concatenate([arr1, arr2]))
 
 # n = int(input("Enter the Number of Inputs: "))
 
