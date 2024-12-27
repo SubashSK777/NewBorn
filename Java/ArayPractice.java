@@ -5,6 +5,9 @@ public class ArayPractice {
   public class DVD {
     public String name;
     public int ReleaseYear;
+    public String Director;
     
+
+    public DVD(String name, int ReleaseYear, )
   }
 }
