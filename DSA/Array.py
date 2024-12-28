@@ -1,11 +1,31 @@
 #ARRAYYYYYYYYYY
 
-from numpy import * 
+n = 12
 
-arr = array([1, 2, 3, 4, 5, 5, 6])
+for i in range(1, 12):
+  
 
-out = [i for i, char in enumerate(arr) if char == 5 ]
-print(out)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# from numpy import * 
+
+# arr = array([1, 2, 3, 4, 5, 5, 6])
+
+# out = [i for i, char in enumerate(arr) if char == 5 ]
+# print(out)
 
 
 
