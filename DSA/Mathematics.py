@@ -50,4 +50,9 @@ from math import *
 #   print("Not an Armstrong")
   
   
-str =   
+str1 = "Nagaram"
+str2 = "Anagram"  
+
+res = True
+
+if len(str1) == len(str2)
