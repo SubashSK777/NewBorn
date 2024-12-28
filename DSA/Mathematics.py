@@ -18,6 +18,12 @@ from math import *
   
 # print(res)
 
+n = 5
+
 fib = [0, 1]
 
 i = fib[0]
+j = fib[1]
+
+
+  
