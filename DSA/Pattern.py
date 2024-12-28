@@ -11,6 +11,6 @@ n = 5
 #     print (i)
 
 for i in range(n):
-  for j in range(i + 1):
+  for j in range(i):
     print ("*", end = " ")
   print("\n")
