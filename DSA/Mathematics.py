@@ -35,16 +35,7 @@ from math import *
 
 n = 153
 org_n = n
-size = len(str(n))
 res = 0
 
-while n > 0:
-  digit = n % 10
-  res += digit ** size
-  n = n // 10
-  
-if res == org_n:
-  print("It is Armstrong")
-else:
-  print("Not an Armstrong")  
+size = len(str(n)) 
   
