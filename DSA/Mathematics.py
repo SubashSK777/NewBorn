@@ -27,10 +27,10 @@ second = 0
 
 for i in range(2, n):
   first = fib[-1]
-  second = fib[i + 1]
+  second = fib[-2]
   
   fib.append(first + second)
   
-print (fib)
+print (fib[-])
 
   
