@@ -30,15 +30,17 @@
 # print(a[0])
 
 
-n = [1, 2, 3, 4, 5, 5, 6]
+n = [1, 2, 3, 4, 5, 6, 6]
 
-n = sorted.n
-o =
+n = sorted(n)
+o = - 2
 i = n[-1]
-j = n[-2]
+j = n[o]
 
 while j == i:
+  o -= 1
   
+print (j)
 
 
 
