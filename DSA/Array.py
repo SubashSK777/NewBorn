@@ -1,18 +1,26 @@
 #ARRAYYYYYYYYYY
 
-from math import *
+# from math import *
 
-n = 982451653
+# n = 982451653
 
-for i in range(2, isqrt(n)):
-  if n % i == 0:
-    res = False
-    break
-  else:
-    res = True
+# for i in range(2, isqrt(n)):
+#   if n % i == 0:
+#     res = False
+#     break
+#   else:
+#     res = True
   
-print(res)
+# print(res)
   
+  
+a = "nagaram"
+b = "anagram"
+
+a = set(a)
+b = set(b)
+
+if set
   
 
 
