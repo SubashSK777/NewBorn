@@ -7,7 +7,7 @@
 # b = [int(i) for i in a ]
 # print (sum(b) / len(b))
 
-a = "Madam"
+a = "Madam".lower()
 if a == a[::-1]:
   print("True")
 else:
