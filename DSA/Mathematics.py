@@ -33,7 +33,7 @@ from math import *
   
 # print (fib[-1])
 
-num = 153
+n = 153
 
 print(num[-1])
   
