@@ -26,11 +26,13 @@
 #   print("False")
   
 
-a = "asdfghjkliuytre"
-print(a[0])
+# a = "asdfghjkliuytre"
+# print(a[0])
 
 
+n = [1, 2, 3, 4, 5, 5, 6]
 
+a
 
 
 
