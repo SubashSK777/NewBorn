@@ -17,8 +17,8 @@
 a = "nagaram".lower()
 b = "anagram".lower()
 
-a = sorted(list(a))
-b = sorted(list(b))
+a = sorted(a)
+b = sorted(b)
 
 if a == b:
   print("True")
