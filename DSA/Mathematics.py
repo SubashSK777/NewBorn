@@ -39,9 +39,8 @@ size = len(str(n))
 res = 0
 
 while n > 0:
-  n = n % 10
-  n = n ** size
-  res += n
+  digit = n % 10
+  res += digit ** size
   n = n // 10
   
 if res == org_n:
