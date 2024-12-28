@@ -20,8 +20,11 @@ b = "anagram"
 a = set(a)
 b = set(b)
 
-print(a)
-print(b)
+if a == b:
+  print("True")
+else: 
+  print("False")
+  
 
 
 
