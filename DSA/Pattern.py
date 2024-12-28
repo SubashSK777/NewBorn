@@ -40,6 +40,10 @@ n = 5
 #     print("A", end = " ")
 #   print("\n")
 
+# for i in range(n):
+#   for j in range(n):
+#     print("*", end = " ")
+#   print("\n")
+
 for i in range(n):
-  for j in range(n):
-    
+  for j in range()
