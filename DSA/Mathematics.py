@@ -55,7 +55,7 @@ str2 = "Anagram".lower()
 
 res = True
 
-if len(str1) == len(str2) and sorted(str1) == enumerate(str2):
+if len(str1) == len(str2) and sorted(str1) == sorted(str2):
   res = True
 else: 
   res = False
