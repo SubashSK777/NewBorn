@@ -35,5 +35,6 @@ from math import *
 
 n = 153
 
-print(num[-1])
+while n != 0:
+  
   
