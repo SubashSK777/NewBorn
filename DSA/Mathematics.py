@@ -31,6 +31,6 @@ for i in range(n):
   
   fib.append(first + second)
   
-print max(fib)
+print (fib)
 
   
