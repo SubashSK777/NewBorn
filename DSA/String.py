@@ -5,4 +5,4 @@
 
 a = "1234"
 b = [int(i) for i in a ]
-print (sum(b))
+print (sum(b) / len(b))
