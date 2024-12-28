@@ -22,10 +22,12 @@ n = 5
 
 fib = [0, 1]
 
-i = fib[0]
-j = fib[1]
+first = 0
+second = 0
 
-for _ in range(n):
+for i in range(n):
+  first = fib[i]
+  second = fib[i + 1]
   
 
   
