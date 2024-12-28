@@ -33,19 +33,21 @@ from math import *
   
 # print (fib[-1])
 
-n = 153
-org_n = n
-res = 0
+# n = 153
+# org_n = n
+# res = 0
 
-size = len(str(n)) 
+# size = len(str(n)) 
 
-while n != 0:
-  digit = n % 10
-  res += digit ** size
-  n = n // 10
+# while n != 0:
+#   digit = n % 10
+#   res += digit ** size
+#   n = n // 10
   
-if res == org_n:
-  print("It is an Armstrong")
-else:
-  print("Not an Armstrong")
+# if res == org_n:
+#   print("It is an Armstrong")
+# else:
+#   print("Not an Armstrong")
+  
+  
   
