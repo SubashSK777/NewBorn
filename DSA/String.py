@@ -3,6 +3,6 @@
 
 # print (txt1)
 
-a = "1234"
-b = set(a)
-print (b)
+a = "123344"
+b = int(a)
+print (sum(b))
