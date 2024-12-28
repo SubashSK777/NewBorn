@@ -3,5 +3,6 @@
 
 # print (txt1)
 
-a = []
-print (sum(a))
+a = "1234"
+b = set(a)
+print (b)
