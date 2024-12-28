@@ -4,7 +4,7 @@ from math import *
 
 n = 982451653
 
-for i in range(2, sqrt(n)):
+for i in range(2, isqrt(n)):
   if n % i == 0:
     res = False
     break
