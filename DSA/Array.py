@@ -1,6 +1,6 @@
 #ARRAYYYYYYYYYY
 
-n = 8
+n = 91
 
 for i in range(2, n):
   if n % i == 0:
@@ -9,7 +9,7 @@ for i in range(2, n):
   else:
     res = True
   
-
+print(res)
   
   
 
