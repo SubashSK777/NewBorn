@@ -20,8 +20,8 @@ b = "anagram"
 a = set(a)
 b = set(b)
 
-if set
-  
+print(a)
+print(b)
 
 
 
