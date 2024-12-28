@@ -18,3 +18,6 @@ from math import *
   
 # print(res)
 
+fib = [0, 1]
+
+i = fib[0]
