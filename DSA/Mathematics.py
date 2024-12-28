@@ -55,4 +55,9 @@ str2 = "Anagram"
 
 res = True
 
-if len(str1) == len(str2)
+if len(str1) == len(str2) and enumerate(str1) == enumerate(str2):
+  res = True
+else: 
+  res = False
+  
+
