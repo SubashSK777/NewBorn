@@ -14,11 +14,11 @@
 # print(res)
   
   
-a = "nagaram"
-b = "anagram"
+a = "nagaram".lower()
+b = "anagram".lower()
 
-a = sorted(list(a)).lower()
-b = sorted(list(b)).lower()
+a = sorted(list(a))
+b = sorted(list(b))
 
 if a == b:
   print("True")
