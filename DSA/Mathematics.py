@@ -39,7 +39,11 @@ res = 0
 
 while n != 0:
   n = n % 10
-  n = n ** str(len(n))
+  n = n ** len(str(n))
   res += n
   
+if res == n:
+  print("It is Armstrong")
+else:
+  print("Not an Armstrong")  
   
