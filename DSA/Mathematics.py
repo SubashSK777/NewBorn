@@ -50,14 +50,16 @@ from math import *
 #   print("Not an Armstrong")
   
   
-str1 = "Nagaram"
-str2 = "Anagram"  
+str1 = "Nagaram".lower()
+str2 = "Anagram".lower() 
 
 res = True
 
-if len(str1) == len(str2) and enumerate(str1) == enumerate(str2):
+if len(str1) == len(str2) and sorted(str1) == enumerate(str2):
   res = True
 else: 
   res = False
+  
+print (res)
   
 
