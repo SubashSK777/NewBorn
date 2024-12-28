@@ -14,20 +14,20 @@
 # print(res)
   
   
-a = "nagaram".lower()
-b = "anagram".lower()
+# a = "nagaram".lower()
+# b = "anagram".lower()
 
-a = sorted(a)
-b = sorted(b)
+# a = sorted(a)
+# b = sorted(b)
 
-if a == b:
-  print("True")
-else: 
-  print("False")
+# if a == b:
+#   print("True")
+# else: 
+#   print("False")
   
 
-
-
+a = "asdfghjkliuytre"
+print(a[0])
 
 
 
