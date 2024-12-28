@@ -50,4 +50,4 @@ from math import *
 #   print("Not an Armstrong")
   
   
-  
+str =   
