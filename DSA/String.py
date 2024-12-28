@@ -5,4 +5,4 @@
 
 a = "1234"
 b = [int(i) for i in a ]
-print (b)
+print (sum(b))
