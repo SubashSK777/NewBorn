@@ -17,7 +17,7 @@
 a = "nagaram"
 b = "anagram"
 
-a = set(a)
+a = list(a)
 b = set(b)
 
 if a == b:
