@@ -3,3 +3,5 @@ txt2 = "    ievdewdh    "
 
 val = "e"
 
+index = [i for i, char in enumerate(txt1) if char == val]
+print(index)
