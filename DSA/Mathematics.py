@@ -29,5 +29,8 @@ for i in range(n):
   first = fib[i]
   second = fib[i + 1]
   
+  fib.append(first + second)
+  
+print max(fib)
 
   
