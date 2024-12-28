@@ -38,4 +38,9 @@ org_n = n
 res = 0
 
 size = len(str(n)) 
+
+while n != 0:
+  digit = n % 10
+  res += digit ** size
+  n = 
   
