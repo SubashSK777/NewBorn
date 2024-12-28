@@ -25,5 +25,7 @@ fib = [0, 1]
 i = fib[0]
 j = fib[1]
 
+for _ in range(n):
+  
 
   
