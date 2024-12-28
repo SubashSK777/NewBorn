@@ -3,4 +3,5 @@
 
 # print (txt1)
 
-a = 
+a = []
+print (sum(a))
