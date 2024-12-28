@@ -23,7 +23,7 @@ n = 5
 #     print("*", end = " ")
 #   print("\n")
 
-for i in range(n):
-  for i in range(n):
-    print("A", end = " ")
-  
+# for i in range(n):
+#   for i in range(n):
+#     print("A", end = " ")
+#   print("\n")
