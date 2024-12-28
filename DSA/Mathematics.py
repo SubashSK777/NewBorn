@@ -34,16 +34,17 @@ from math import *
 # print (fib[-1])
 
 n = 153
+org_n = n
 size = len(str(n))
 res = 0
 
-while n != 0:
+while n > 0:
   n = n % 10
   n = n ** size
   res += n
   n = n // 10
   
-if res == n:
+if res == org_n:
   print("It is Armstrong")
 else:
   print("Not an Armstrong")  
