@@ -34,13 +34,14 @@ from math import *
 # print (fib[-1])
 
 n = 153
-
+size = len(str(n))
 res = 0
 
 while n != 0:
   n = n % 10
-  n = n ** len(str(n))
+  n = n ** size
   res += n
+  n = n // 10
   
 if res == n:
   print("It is Armstrong")
