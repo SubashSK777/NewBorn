@@ -3,6 +3,13 @@
 
 # print (txt1)
 
-a = "1234"
-b = [int(i) for i in a ]
-print (sum(b) / len(b))
+# a = "1234"
+# b = [int(i) for i in a ]
+# print (sum(b) / len(b))
+
+a = "Madam"
+if a == a[::-1]:
+  print("True")
+else:
+  print("False")
+  
