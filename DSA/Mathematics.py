@@ -25,8 +25,8 @@ fib = [0, 1]
 first = 0
 second = 0
 
-for i in range(n):
-  first = fib[i]
+for i in range(2, n):
+  first = fib[-1]
   second = fib[i + 1]
   
   fib.append(first + second)
