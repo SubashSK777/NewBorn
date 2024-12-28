@@ -39,6 +39,7 @@ j = n[o]
 
 while j == i:
   o -= 1
+  j = n[o]
   
 print (j)
 
