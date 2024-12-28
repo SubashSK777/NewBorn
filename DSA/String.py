@@ -4,5 +4,5 @@
 # print (txt1)
 
 a = "123344"
-b = int(a)
+b = [int(i) for i in a ]
 print (sum(b))
