@@ -62,7 +62,7 @@ from math import *
   
 # print (res)
   
-n = 91
+n = 153
 org_n = n
 size = len(str(n))
 res = 0
@@ -70,3 +70,8 @@ res = 0
 while n != 0:
   sub = n % 10
   res += sub ** size
+  n = n // 10
+  
+if res == org
+  
+print(res)
