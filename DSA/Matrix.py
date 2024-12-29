@@ -3,4 +3,5 @@ B = [[5, 6], [7, 8]]
 
 import numpy as np 
 
-A = np.nda
+
+print (A , B)
