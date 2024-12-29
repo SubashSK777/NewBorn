@@ -113,3 +113,9 @@ from math import *
 # else:
 #   print("Prime")
 
+n = 153
+
+size = len(str(n))
+
+while n != 0:
+  cut = 
