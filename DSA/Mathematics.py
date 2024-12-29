@@ -104,11 +104,12 @@ from math import *
   
 # print (res)
 
-n = 91
+# n = 91
 
-for i in range(2, isqrt(n) + 1):
-  if n % i == 0:
-    print("Not Prime")
-    break
-else:
-  print("Prime")
+# for i in range(2, isqrt(n) + 1):
+#   if n % i == 0:
+#     print("Not Prime")
+#     break
+# else:
+#   print("Prime")
+
