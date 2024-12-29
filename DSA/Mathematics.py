@@ -78,4 +78,14 @@ from math import *
 #   print("It is not an Armstrong")
 
 
-a = ""
+a = "Nagaram".lower()
+b = "Anagram".lower()
+
+a = set(a)
+b = set(b)
+
+if a == b:
+  print ("It is an Anagram")
+  
+else: 
+  print ("")
