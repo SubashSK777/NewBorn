@@ -62,16 +62,20 @@ from math import *
   
 # print (res)
   
-n = 153
-org_n = n
-size = len(str(n))
-res = 0
+# n = 153
+# org_n = n
+# size = len(str(n))
+# res = 0
 
-while n != 0:
-  sub = n % 10
-  res += sub ** size
-  n = n // 10
+# while n != 0:
+#   sub = n % 10
+#   res += sub ** size
+#   n = n // 10
   
-if res == org
-  
-print(res)
+# if res == org_n:
+#   print("It is an Armstrong")
+# else:
+#   print("It is not an Armstrong")
+
+
+a = ""
