@@ -68,3 +68,4 @@ size = len(str(n))
 res = 0
 
 while n != 0:
+  
