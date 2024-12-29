@@ -106,6 +106,9 @@ from math import *
 
 n = 91
 
-for i in range(2, isqrt(n)):
+for i in range(2, isqrt(n) + 1):
   if n % i == 0:
     print("Not Prime")
+    break
+else:
+  print("Prime")
