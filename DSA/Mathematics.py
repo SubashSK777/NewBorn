@@ -113,15 +113,20 @@ from math import *
 # else:
 #   print("Prime")
 
-n = 153
-org_n = n
-res = 0
-size = len(str(n))
+# n = 153
+# org_n = n
+# res = 0
+# size = len(str(n))
 
-while n != 0:
-  cut = n % 10
-  res += cut ** size
-  n = n // 10
+# while n != 0:
+#   cut = n % 10
+#   res += cut ** size
+#   n = n // 10
   
-if res == 
+# if res == org_n:
+#   print (True)
+# else:
+#   print (False)
+
+
   
