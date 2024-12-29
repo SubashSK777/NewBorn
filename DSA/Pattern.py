@@ -68,5 +68,5 @@ for i in range(n):
   for j in range(n - i - 1):
     print(" ", end = " ")
   for k in range(2*i + 1):
-    print ([k if k % 2 != 0 else " "], end = " ")
+    print (k + 2, end = " ")
   print()
