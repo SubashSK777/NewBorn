@@ -128,5 +128,13 @@ from math import *
 # else:
 #   print (False)
 
+num = 1234
+n = 0
 
+while num != 0:
+  n += num % 10
+  num = num // 10
+  
+print (n)
+  
   
