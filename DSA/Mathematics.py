@@ -118,4 +118,4 @@ n = 153
 size = len(str(n))
 
 while n != 0:
-  cut = 
+  cut = n % 10
