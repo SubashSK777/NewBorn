@@ -46,20 +46,19 @@
 # else: 
 #   print (False)
 
-# n = [3, 1, 5, 2, 7, 9, 4, 3, 7, 9, 1, 1]
+n = [3, 1, 5, 2, 7, 9, 4, 3, 7, 9, 1, 1]
 
 
-# frequency = {}
+frequency = {}
 
-# for num in n:
-#     if num in frequency:
-#         frequency[num] += 1
-#     else:
-#         frequency[num] = 1
+for num in n:
+    if num in frequency:
+        frequency[num] += 1
+    else:
+        frequency[num] = 1
 
-# print(frequency)
+print(frequency)
     
-
 
 # from numpy import * 
 
