@@ -50,16 +50,18 @@ from math import *
 #   print("Not an Armstrong")
   
   
-str1 = "Nagaram".lower()
-str2 = "Anagram".lower() 
+# str1 = "Nagaram".lower()
+# str2 = "Anagram".lower() 
 
-res = True
+# res = True
 
-if len(str1) == len(str2) and sorted(str1) == sorted(str2):
-  res = True
-else: 
-  res = False
+# if len(str1) == len(str2) and sorted(str1) == sorted(str2):
+#   res = True
+# else: 
+#   res = False
   
-print (res)
+# print (res)
   
+n = 91
+
 

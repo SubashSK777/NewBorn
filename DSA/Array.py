@@ -29,19 +29,36 @@
 # a = "asdfghjkliuytre"
 # print(a[0])
 
+# n = [1, 2, 3, 4, 5, 5, 6, 6]
 
-n = [1, 2, 3, 4, 5, 5, 6, 6]
+# n = sorted(set(n))
 
-n = sorted(set(n))
+# if len(n) < 2:
+#   print("No 2nd Largest")
+  
+# else:
+#   print(n[-2])
+
+# n = [3, 1, 5, 2, 7, 9, 4]
+
+# if n == sorted(n):
+#   print (True)
+# else: 
+#   print (False)
+
+# n = [3, 1, 5, 2, 7, 9, 4, 3, 7, 9, 1, 1]
 
 
+# frequency = {}
 
+# for num in n:
+#     if num in frequency:
+#         frequency[num] += 1
+#     else:
+#         frequency[num] = 1
 
-
-
-
-
-
+# print(frequency)
+    
 
 
 # from numpy import * 
