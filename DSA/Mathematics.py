@@ -90,7 +90,14 @@ from math import *
 # else: 
 #   print ("It is Not an Anagram")
 
-a = "Madam".lower()
+# a = "Madam".lower()
 
-if a == a[::-1]:
-  print("It is a Palindrome")
+# if a == a[::-1]:
+#   print("It is a Palindrome")
+# else:
+#   print("It is not a Palindrome")
+
+n = 5
+res = 1
+for i in range(n + 1):
+  res
