@@ -114,8 +114,10 @@ from math import *
 #   print("Prime")
 
 n = 153
-
+res = 0
 size = len(str(n))
 
 while n != 0:
   cut = n % 10
+  res +=
+  
