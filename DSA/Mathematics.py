@@ -106,3 +106,6 @@ from math import *
 
 n = 91
 
+for i in range(2, isqrt(n)):
+  if n % i == 0:
+    print("Prim")
