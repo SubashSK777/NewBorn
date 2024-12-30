@@ -48,7 +48,6 @@
 
 n = [3, 1, 5, 2, 7, 9, 4, 3, 7, 9, 1, 1]
 
-
 frequency = {}
 
 for num in n:
@@ -59,7 +58,6 @@ for num in n:
 
 print(frequency)
     
-
 # from numpy import * 
 
 # arr = array([1, 2, 3, 4, 5, 5, 6])

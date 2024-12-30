@@ -128,13 +128,31 @@ from math import *
 # else:
 #   print (False)
 
-num = 1234
-n = 0
+# num = 1234
+# n = 0
 
-while num != 0:
-  n += num % 10
-  num = num // 10
+# while num != 0:
+#   n += num % 10
+#   num = num // 10
   
-print (n)
+# print (n)
+  
+  
+# num = 153
+# size = len(str(num))
+# org_num = num
+# res = 0
+
+# while num != 0:
+#   st = num % 10
+#   res += st ** size
+#   num = num // 10
+  
+# if res == org_num:
+#   print("Arms")
+# else:
+#   print("No No Arms")
+
+
   
   
