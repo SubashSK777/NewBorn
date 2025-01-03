@@ -3,11 +3,12 @@ public class Bidhsjdh {
     Counter(10);
   }
   static void Counter (int n) {
-    if (n == 0) {
+    int i = 0;
+    if (i == n) {
       return;
     } else {
       System.out.println(n);
-      Counter(n - 1);
+      Counter(n + 1);
     }
   }
 }
