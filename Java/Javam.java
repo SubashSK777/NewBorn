@@ -5,9 +5,8 @@ public class Javam {
 		if (age > 18) {
 			if (salary > 25000) {
 				System.out.println("Eligible for Loan");
-        break;
+        return;
 			}	
-		} 
-    System.out.println("Not Eligible");
+		} System.out.println("Not Eligible");
   }
 }
