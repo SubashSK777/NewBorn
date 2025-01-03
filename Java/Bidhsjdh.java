@@ -3,7 +3,7 @@ public class Bidhsjdh {
     Counter(10);
   }
   static int Counter (int n) {
-    System.out.printlnn);
+    return n;
     Counter( n - 1);
   }
 }
