@@ -7,8 +7,8 @@ public class Bidhsjdh {
     if (i == n) {
       return;
     } else {
-      System.out.println(n);
-      Counter(n + 1);
+      System.out.println(i);
+      Counter(i + 1);
     }
   }
 }
