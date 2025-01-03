@@ -1,6 +1,6 @@
 public class Bidhsjdh {
   public static void main(String[] args) {
-    Facto(5);
+   System.out.println(Facto(5));
   }
 
   static int Facto(int n) {
