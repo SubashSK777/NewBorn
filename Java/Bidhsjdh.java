@@ -11,6 +11,7 @@ public class Bidhsjdh {
       case 3:
         System.out.println("Wednesday");
         break;
+      
     }
   }
 }
