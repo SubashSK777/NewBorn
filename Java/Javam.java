@@ -1,12 +1,11 @@
 public class Javam {
-	static void LoanChecker (int age, int salary) {
+	public static void main (String [] args) {
+    int age = 20;
+    int salary = 20000;
 		if (age < 18) {
 			if (salary < 25000) {
 				System.out.println("Eligible for Loan");
 			}	
 		} System.out.println("Not Eligible");
-
-	public static void main (String [] args) {
-		LoanChecker(20, 15000);
+  }
 	}
-}
