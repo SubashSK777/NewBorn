@@ -1,14 +1,13 @@
 public class Bidhsjdh {
   public static void main(String[] args) {
-    Counter(10);
+    Counter(10, 0);
   }
-  static void Counter (int n) {
-    int i = 0;
+  static void Counter (int n, int i) {
     if (i == n) {
       return;
     } else {
       System.out.println(i);
-      Counter(i + 1);
+      Counter(n, i + 1);
     }
   }
 }
