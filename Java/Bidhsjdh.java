@@ -8,6 +8,8 @@ public class Bidhsjdh {
       case 2:
         System.out.println("Tuesday");
         break;
+      case 3:
+        System.out.println("Wednesday");
     }
   }
 }
