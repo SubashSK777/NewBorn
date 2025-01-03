@@ -46,17 +46,17 @@
 # else: 
 #   print (False)
 
-n = [3, 1, 5, 2, 7, 9, 4, 3, 7, 9, 1, 1]
+# n = [3, 1, 5, 2, 7, 9, 4, 3, 7, 9, 1, 1]
 
-frequency = {}
+# frequency = {}
 
-for num in n:
-    if num in frequency:
-        frequency[num] += 1
-    else:
-        frequency[num] = 1
+# for num in n:
+#     if num in frequency:
+#         frequency[num] += 1
+#     else:
+#         frequency[num] = 1
 
-print(frequency)
+# print(frequency)
     
 # from numpy import * 
 
@@ -119,3 +119,10 @@ print(frequency)
 
 # for vals in arr:
 #   print(vals*vals)
+
+
+num = [[1,2,3], [4,5,6], [7,8,9]]
+
+for i in range(len(num)):
+    for j in range(len(num[i])):
+        print(num[i][j])
