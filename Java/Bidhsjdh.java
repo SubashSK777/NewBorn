@@ -1,6 +1,6 @@
 public class Bidhsjdh {
   public static void main(String[] args) {
-    int n = 2;
+    int n = 7;
     switch (n) {
       case 1:
         System.out.println("Monday");
@@ -13,7 +13,8 @@ public class Bidhsjdh {
         break;
       case 4:
         System.out.println("Thurday");
-      
+      default:
+        System.out.println("Noooooooooooooooooooooooooooo");
     }
   }
 }
