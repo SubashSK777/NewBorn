@@ -4,6 +4,7 @@ public class Bidhsjdh {
   }
 
   static int Factorial(int n) {
-    
+    int res = 1;
+     
   }
 }
