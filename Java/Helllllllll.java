@@ -2,9 +2,9 @@ public class Helllllllll {
   public static void main(String[] args) {
     String s = "";
     if (s.isEmpty()) {
-      return true;
+      System.out.println("Empty");
     } else {
-      return false;
+      System.out.println("Not Empty");
     }
   }
 }
