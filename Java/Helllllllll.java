@@ -1,10 +1,10 @@
 public class Helllllllll {
   public static void main(String[] args) {
-    String s = "";
-    if (s.isEmpty()) {
-      System.out.println("Empty");
+    int year = 2100;
+    if ( year % 4 == 0 && year % 100 != 0) {
+      System.out.println("Leap");
     } else {
-      System.out.println("Not Empty");
-    }
+      System.out.println("No Leap");
+    } 
   }
 }
