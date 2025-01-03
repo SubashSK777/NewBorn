@@ -2,8 +2,9 @@ public class Bidhsjdh {
   public static void main(String[] args) {
     Counter(10);
   }
-  static int Counter (int n) {
-    return n;
-    Counter( n - 1);
+  static void Counter (int n) {
+    
+      System.out.println(n);
+      Counter( n - 1);
   }
 }
