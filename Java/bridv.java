@@ -5,12 +5,13 @@ public class bridv {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     ArrayList<Integer> arr = new ArrayList<>();
-    int [] arr;
 
     int n = sc.nextInt();
 
     if (n != -1) {
-      arr.append(n);
+      arr.add(n);
+    } else {
+      
     }
   }
 }
