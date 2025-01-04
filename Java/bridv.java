@@ -12,6 +12,7 @@ public class bridv {
       if (n != -1) {
         arr.add(n);
       } else {
+        System.out.println();
         break;
       }
     }
