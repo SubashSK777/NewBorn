@@ -5,9 +5,8 @@ public class Tabla {
       i = i^i;
       if (i == n) {
         System.out.println("Perfect Square");
-      } else {
-        System.out.println("Not a Perfect Square");
       }
+    System.out.println("");
     }
   }
 }
