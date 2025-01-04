@@ -6,10 +6,9 @@ public class zxdfty {
     int i = 0;
     int sum = 0;
     while (i < n){
-      sum = 2*i+1;
-      System.out.println(sum);
+      sum = sum + 2*i+1;
       i++;
     }
-    
+    System.out.println(sum);
   }
 }
