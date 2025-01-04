@@ -8,10 +8,11 @@ public class bridv {
 
     int n = sc.nextInt();
 
-    if (n != -1) {
-      arr.add(n);
-    } else {
-      
-    }
+    while(n )
+      if (n != -1) {
+        arr.add(n);
+      } else {
+        
+      }
   }
 }
