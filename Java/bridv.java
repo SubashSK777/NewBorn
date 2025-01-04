@@ -5,6 +5,10 @@ public class bridv {
     Scanner sc = new Scanner(System.in);
     int [] arr;
 
-    int n = sc.
+    int n = sc.nextInt();
+
+    if (n != -1) {
+      arr.append(n);
+    }
   }
 }
