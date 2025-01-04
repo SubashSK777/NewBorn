@@ -5,8 +5,10 @@ public class PowPow {
     Scanner sc = new Scanner(System.in);
 
     int n = 4;
-
-    int m = 2*
+    int i = 0;
+    while (i < n) {
+      
+    }
 
 
     
