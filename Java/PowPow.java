@@ -8,7 +8,9 @@ public class PowPow {
     int i = 0;
     while (i < n){
         n = n / 2;
-        System.out.println(n);
+        if (n == 1) {
+          System.out.println("Not a Power");
+        }
         
     }
   }
