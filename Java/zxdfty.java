@@ -4,8 +4,10 @@ public class zxdfty {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     int i = 0;
-    while (i < n){
+    int sum = 0;
+    while (2*i+1 < n){
       System.out.println(2*i+1);
+      
       i++;
     }
   }
