@@ -6,8 +6,8 @@ public class PowPow {
 
     int n = sc.nextInt();
     int i = 0;
-    while (i ){
-
+    while (i < n){
+      n = n % 2;
     }
   }
 }
