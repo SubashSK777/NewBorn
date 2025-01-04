@@ -4,6 +4,8 @@ public class zxdfty {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     int i = 0;
-    while (i < n){}
+    while (i < n){
+      
+    }
   }
 }
