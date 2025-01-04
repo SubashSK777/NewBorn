@@ -6,7 +6,8 @@ public class Tabla {
       if (i == n) {
         System.out.println("Perfect Square");
       }
-    System.out.println("");
+    
     }
+    System.out.println("Not a Perfect Square");
   }
 }
