@@ -9,7 +9,7 @@ public class bridv {
     int n = sc.nextInt();
 
     while(n != -1) {
-      
+
       if (n != -1) {
         arr.add(n);
       } else {
