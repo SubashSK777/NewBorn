@@ -6,7 +6,7 @@ public class bridv {
     Scanner sc = new Scanner(System.in);
     ArrayList<Integer> arr = new ArrayList<>();
 
-    int n = sc.nextInt();
+    
 
     while(n != -1) {
 
