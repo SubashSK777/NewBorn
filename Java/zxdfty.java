@@ -2,10 +2,11 @@ import java.util.*;
 
 
 public class zxdfty {
-  int x = ;
+  Scanner sc = new Scanner(System.in);
+  int x = sc.nextInt();
 
   public static void main(String[] args) {
-    Scanner sc = new Scanner(System.in);
+    
     zxdfty myObj = new zxdfty();
     System.out.println(myObj.x);
   }
