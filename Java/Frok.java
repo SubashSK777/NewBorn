@@ -7,8 +7,8 @@ public class Frok {
     int sum = 0;
     int j = 0;
     for (int i = 0; i < n; i++) {
-      j = 2*i+1;
-      sum = sum + 2*i+1;
+      j = 2 * i + 1;
+      sum = sum + 2 * i + 1;
       System.out.println(j);
     }
     System.out.println(sum);
