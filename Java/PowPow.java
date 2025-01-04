@@ -6,11 +6,10 @@ public class PowPow {
 
     int n = 4;
     int i = 0;
+    int m = 2 ^ i;
     while (i < n) {
-      
+      System.out.println(m);
+      i++;
     }
-
-
-    
   }
 }
