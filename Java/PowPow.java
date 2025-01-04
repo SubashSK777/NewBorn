@@ -6,9 +6,8 @@ public class PowPow {
 
     int n = sc.nextInt();
     int i = 0;
-    while (i % 2 == 0){
-        n = n / 2;
-        
+    while (n % 2 == 0){
+        n = n / 2;  
     }
     if (n == 1) {
       System.out.println("Not a Power");
