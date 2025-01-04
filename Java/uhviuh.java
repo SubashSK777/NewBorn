@@ -4,6 +4,6 @@ public class uhviuh {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     List<List<Integer>> matrix = new ArrayList<>();
-    matrix.add(Array.)
+    matrix.add(Array.asList)
   }
 }
