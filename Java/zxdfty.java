@@ -5,7 +5,7 @@ public class zxdfty {
     int n = sc.nextInt();
     int i = 0;
     int sum = 0;
-    while (2*i+1 < n){
+    while (i < n){
       sum = sum + 2*i+1;
       i++;
     }
