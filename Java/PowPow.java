@@ -8,7 +8,9 @@ public class PowPow {
     int i = 0;
     while (i < n){
       if (n == 1) {
-        
+        System.out.println(n);
+      } else {
+        n = n \\ 2;
       }
     }
   }
