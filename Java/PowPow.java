@@ -7,10 +7,9 @@ public class PowPow {
     int n = sc.nextInt();
     int i = 0;
     while (i < n){
-
         n = n / 2;
-      }
+        System.out.println(n);
     }
-    System.out.println(n);
+    
   }
 }
