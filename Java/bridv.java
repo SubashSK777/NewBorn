@@ -6,14 +6,13 @@ public class bridv {
     Scanner sc = new Scanner(System.in);
     ArrayList<Integer> arr = new ArrayList<>();
 
-    
-
-    while(n != -1) {
+    while(true) {
+      int n = sc.nextInt();
 
       if (n != -1) {
         arr.add(n);
       } else {
-        
+        break;
       }
     }
   }
