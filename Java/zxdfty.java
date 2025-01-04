@@ -5,7 +5,8 @@ public class zxdfty {
     int n = sc.nextInt();
     int i = 0;
     while (i < n){
-      
+      System.out.println(2*i+1);
+      i++;
     }
   }
 }
