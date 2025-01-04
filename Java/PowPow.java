@@ -9,7 +9,7 @@ public class PowPow {
     while (i < n){
         n = n / 2;
         System.out.println(n);
+        
     }
-    
   }
 }
