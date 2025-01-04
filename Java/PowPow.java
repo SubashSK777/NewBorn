@@ -5,15 +5,11 @@ public class PowPow {
   {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
-    while (n % 2 == 0)
-    {
+    while (n % 2 == 0) {
         n = n / 2;  
-    }
-    if (n == 1) 
-    {
+    } if (n == 1) {
       System.out.println("Is a Power");
-    } else 
-    {
+    } else {
       System.out.println("Not a Power");
     }
   }
