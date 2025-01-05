@@ -9,7 +9,7 @@ public class HeyPatta {
   }
 
   public static void Triangle(int n) {
-    for (int)
+    for (int i = 0)
   }
 
   public static void main(String[] args) {
