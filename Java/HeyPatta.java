@@ -58,7 +58,8 @@ public class HeyPatta {
     // Triangle(5);
     // NumPat(11);
     // HollowSqr(11);
-    NumTriangle(5);
+    // NumTriangle(5);
+    
 
   }
 }
