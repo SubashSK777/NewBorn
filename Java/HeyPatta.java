@@ -67,7 +67,7 @@ public class HeyPatta {
     
     for (int i = 1; i <= n; i++) {
       for (int j = i; j <= n; j++) {
-        if (j == 4 || j == n) {
+        if (j == 1 || j == n) {
           System.out.print(" * ");
         } else {
           System.out.print("   ");
