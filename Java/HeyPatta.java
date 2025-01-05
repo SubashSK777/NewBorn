@@ -54,7 +54,13 @@ public class HeyPatta {
     }
   }
 
-  public static void 
+  public static void Crossbreed (int n) {
+    for (int i = 0; i < n; i ++) {
+      for (int j = 0; j < n; j++) {
+        
+      }
+    }
+  }
 
   public static void main(String[] args) {
     // Triangle(5);
