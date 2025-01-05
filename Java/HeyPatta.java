@@ -17,7 +17,9 @@ public class HeyPatta {
   }
 
   public static void NumPat (int n) {
-    for ()
+    for (int i = 0; i < n; i++){
+      for ()
+    }
   }
 
   public static void main(String[] args) {
