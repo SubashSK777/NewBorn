@@ -9,15 +9,15 @@ public class HeyPatta {
   }
 
   public static void Triangle(int n) {
-    for (int i = 1; i < n; i++){
+    for (int i = 0; i < n; i++){
       for (int j = i; j < n; j++){
-        System.out.println();
-      }
+        System.out.print(" * ");
+      }System.out.println();
     }
   }
 
   public static void main(String[] args) {
-    Square(5);
+    Triangle(5);
 
   }
 }
