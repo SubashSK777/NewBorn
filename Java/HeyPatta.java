@@ -81,12 +81,17 @@ public class HeyPatta {
     }
   }
 
+  public static void AHHHHHHHHHHH (int n) {
+    for 
+  }
+
   public static void main(String[] args) {
     // Triangle(5);
     // NumPat(11);
     // HollowSqr(11);
     // NumTriangle(5);
-    Crossbreed(5);
+    // Crossbreed(5);
+
 
   }
 }
