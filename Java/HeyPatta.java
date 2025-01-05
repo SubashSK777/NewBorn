@@ -3,7 +3,7 @@ public class HeyPatta {
     for (int i = n; i < n; i++) {
       for (int j = n; j < n; j++) {
         System.out.print("*");
-      }
+      }System.out.println();
     }
   }
 
