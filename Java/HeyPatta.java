@@ -8,6 +8,10 @@ public class HeyPatta {
     }
   }
 
+  public static void Triangle(int n) {
+    for (int)
+  }
+
   public static void main(String[] args) {
     Square(5);
 
