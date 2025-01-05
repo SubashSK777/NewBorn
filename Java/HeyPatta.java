@@ -54,12 +54,14 @@ public class HeyPatta {
     }
   }
 
+  public static void 
+
   public static void main(String[] args) {
     // Triangle(5);
     // NumPat(11);
     // HollowSqr(11);
     // NumTriangle(5);
-    
+
 
   }
 }
