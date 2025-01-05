@@ -30,6 +30,6 @@ public class HeyPatta {
 
   public static void main(String[] args) {
     // Triangle(5);
-    NumPat(100);
+    NumPat(10);
   }
 }
