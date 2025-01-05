@@ -16,6 +16,10 @@ public class HeyPatta {
     }
   }
 
+  public static void NumPat (int n) {
+    for ()
+  }
+
   public static void main(String[] args) {
     Triangle(5);
 
