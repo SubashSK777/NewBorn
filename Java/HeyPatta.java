@@ -57,7 +57,7 @@ public class HeyPatta {
   public static void Crossbreed (int n) {
     for (int i = 1; i <= n; i ++) {
       for (int j = 1; j <= i; j++) {
-        if (i == 1 || ) {
+        if (j == 1 || j == i) {
           System.out.print(" * ");
         } else {
           System.out.print("   ");
@@ -67,6 +67,7 @@ public class HeyPatta {
     
     for (int i = 1; i <= n; i++) {
       for (int j = i; j <= n; j++) {
+        if ()
         System.out.print(" * ");
       } System.out.println();
     }
