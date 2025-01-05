@@ -64,10 +64,10 @@ public class HeyPatta {
         }
       } System.out.println();
     }
+
+    for 
+      System.out.println();
     
-    for (int k = 1; k < n; k++ ){
-      System.out.print(" * ");
-    }
 
     for (int i = 1; i <= n; i++) {
       for (int j = 1; j <= n ; j++) {
@@ -81,16 +81,12 @@ public class HeyPatta {
     }
   }
 
-  public static void AHHHHHHHHHHH (int n) {
-    for 
-  }
-
   public static void main(String[] args) {
     // Triangle(5);
     // NumPat(11);
     // HollowSqr(11);
     // NumTriangle(5);
-    // Crossbreed(5);
+    Crossbreed(5);
 
 
   }
