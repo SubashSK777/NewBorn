@@ -19,7 +19,7 @@ public class HeyPatta {
   public static void NumPat (int n) {
     for (int i = 0; i < n; i++){
       for (int j = 0; j < n; j++){
-        if (j == 0 || j == n) {
+        if (j == 0 || j == n/2 || j == n - 1) {
           System.out.print("1");
         } else {
           System.out.print("0");
@@ -30,6 +30,6 @@ public class HeyPatta {
 
   public static void main(String[] args) {
     Triangle(5);
-    NumPat(4);
+    NumPat(5);
   }
 }
