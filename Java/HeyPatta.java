@@ -86,7 +86,7 @@ public class HeyPatta {
     // NumPat(11);
     // HollowSqr(11);
     // NumTriangle(5);
-    // Crossbreed(5);
+    Crossbreed(5);
 
 
   }
