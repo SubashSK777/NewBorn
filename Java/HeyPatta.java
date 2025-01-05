@@ -60,6 +60,7 @@ public class HeyPatta {
         System.out.print(" * ");
       } System.out.println();
     }
+    
     for (int i = 1; i <= n; i++) {
       for (int j = i; j <= n; j++) {
         System.out.print(" * ");
@@ -72,7 +73,7 @@ public class HeyPatta {
     // NumPat(11);
     // HollowSqr(11);
     // NumTriangle(5);
-    Crossbreed(5);
+    Crossbreed(6);
 
   }
 }
