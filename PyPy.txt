@@ -1,0 +1,221 @@
+import math
+
+arr = [1, 2, 3, 4, 5]
+
+
+
+
+k = n
+current_sum = 0
+max_sum = -math.inf
+
+for i in range(k):
+	current_sum += arr[i]
+max_sum = max(max_sum, current_sum)
+
+for i in range(k, len(arr)):
+	current_sum += arr[i]
+	current_sum -= arr[i - k]
+	max_sum = max(max_sum, current_sum)
+
+print(max_sum)
+
+
+
+
+
+k = n
+current_sum = 0
+min_sum = math.inf
+
+for i in range(k):
+	current_sum += arr[i]
+min_sum = min(min_sum, current_sum)
+
+for i in range(k, len(arr)):
+	current_sum -= arr[i - k]
+	current_sum += arr[k]
+	min_sum = min(min_sum, current_sum)
+
+print(min_sum)
+
+
+
+
+
+k = n
+count = 0
+res = []
+
+for i in range(k):
+	if i % 2 != 0:
+		count += 1
+res.append(count)
+
+for i in range(k, len(arr)):
+	count += arr[i]
+	count -= arr[i - k]
+		if i % 2 != 0:
+			count += 1
+		else:
+			count -= 1
+
+	res.append(count)
+
+print(res)
+
+
+
+
+
+k = n
+max = -math.inf
+current_max = 0
+res = []
+
+for i in range(k):
+	current_max = i
+	if current_max > max:
+		max = current_max
+
+res.append(max)
+
+for i in range(k, len(arr)):
+	current_max += arr[i]
+	current_max -= arr[i - k]
+	if current_max > max:
+		max = current_max
+	else:
+		pass
+	res.append(max)
+	
+print(res)
+
+
+k = n
+min = math.inf
+current_min = 0
+res = []
+
+for i in range(k):
+	current_min = i
+	if current_min < min:
+		min = current_min
+
+res.append(min)
+
+for i in range(k, len(arr)):
+	current_min += arr[i]
+	current_min - = arr[i - k]
+	if current_min < min:
+		min = current_min
+	else:
+		pass
+	res.append(min)
+
+print(res)
+
+
+
+
+
+k = n
+target = n
+count = 0
+current_sum = 0
+
+for i in range(k):
+	current_sum += arr[i]
+	if current_sum == target:
+		count += 1
+	
+for i in range(k , len(arr)):
+	current_sum += arr[i]
+	current_sum -= arr[i - k]
+	if current_sum == target:
+		count += 1
+
+print(count)
+
+
+
+
+
+
+k = n
+status = 0
+res = []
+
+for i in range(k):
+	if i > 0:
+		status += 1
+
+res.append(status)
+
+for i in range(k, len(arr)):
+	if arr[i] > 0:
+		status += 1
+	if arr[i - k] > 0:
+		status -= 1
+
+	res.append(status)
+
+print(res)
+
+
+
+
+
+
+k = n
+target = n
+current_sum = 0
+count = 0
+res =[]
+
+ for i in range(k):
+	current_sum += i
+	if current_sum <= target:
+		count += 1
+res.append(count)
+
+for i in range(k, len(arr)):
+	if current_sum += arr[i] <= target:
+		count += 1
+	if current_sum -= arr[i - k] <= target:
+		count -= 1
+
+	res.append(count)
+
+print(res)
+
+
+
+
+k = n
+current_avg = 0
+avg = 0
+res = []
+
+for i in range(k):
+	avg += i
+	current_avg= avg/4
+	
+
+
+	
+
+	
+
+	
+	
+
+
+
+	
+
+	
+
+	
+
+	

@@ -1,9 +1,9 @@
 public class HeyPatta {
 
-  public static void Square(int n) {
+  public static void Square(int n, int m) {
     for (int i = 1; i <= n; i++) {
-      for (int j = 1; j <= n; j++) {
-        System.out.print(j + " ");
+      for (int j = 1; j <= m; j++) {
+        System.out.print(" * ");
       }System.out.println();
     }
   }
@@ -82,7 +82,8 @@ public class HeyPatta {
     // NumPat(11);
     // HollowSqr(11);
     // NumTriangle(5);
-    Crossbreed(5);
+    //Crossbreed(5);
+    Square(5, 10);
 
 
   }
