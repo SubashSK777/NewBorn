@@ -9,4 +9,6 @@ def binary_search(arr):
     M = L + R // 2
     
     if arr[M] == target:
-      return 
+      return M
+    elif arr[M] < target:
+      L = 
