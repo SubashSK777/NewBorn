@@ -6,7 +6,7 @@ def binary_search(arr):
   R = len(arr) - 1
   target = 7
   while L < R:
-    M = L + R // 2
+    M = (L + R) // 2
     
     if arr[M] == target:
       return M
