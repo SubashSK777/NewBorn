@@ -1,7 +1,7 @@
 arr = [-5, -3, -2, 1, 3, 5]
 
 def BS(arr, target):
-  N = len(arr) - 1
+  N = len(arr) 
   L = 0
   R = N
   
