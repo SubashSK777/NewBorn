@@ -12,8 +12,8 @@ def BS(arr, target):
     elif arr[M] < target:
       L = M + 1
     else:
-      R = M - 1
+      R = M 
       
-  return M
+  return -1
 
-print(BS(arr, 3))
+print(BS(arr, 5))
