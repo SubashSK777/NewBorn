@@ -1,19 +1,20 @@
-arr = [-5, -3, -2, 1, 3, 5]
+arr = [1, 2, 2, 2, 3, 4, 5]
 
-def BS(arr, target):
-  N = len(arr) 
-  L = 0
-  R = N
-  
-  while L < R:
-    M = (L +R) // 2
-    if arr[M] == target:
-      return M
-    elif arr[M] < target:
-      L = M + 1
-    else:
-      R = M 
-      
-  return -1
+def binary_search(arr, target):
+	L = 0
+	R = len(arr) - 1
+	while L <= R:
+		M = (L + R)//2
+		if arr[M]  == target:
+			return M 
+		elif arr[M] < target:
+			L = M + 1
+		else:
+			R = M - 1
 
-print(BS(arr, 5))
+	return -1 
+
+
+res = binary_search(arr, 2)
+
+print(res)
