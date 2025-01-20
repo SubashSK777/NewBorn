@@ -1,12 +1,11 @@
-nums = [1,2,3,4]
+nums = [20,100,10,12,5,13]
 
-pre = 1
-res = [1]
-prod = 1
-for i in range(0, len(nums)-1):
-    prod *= nums[i]
-    res.append(prod)
-    
-
-    
-print(len(nums))
+for i in range(len(nums)):
+    for j in range(i, len(nums)):
+        if nums[i] < nums[j]:
+            for k in range(j, len(nums)):
+                if nums[j] < nums[k]:
+                    print("True")
+                    
+print("Error")
+        
