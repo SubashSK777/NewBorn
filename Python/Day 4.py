@@ -1,9 +1,15 @@
-flowerbed = [1,0,0,0,1] 
-n = 1
+nums = [1,2,3,4]
 
-S = i
-F = S - 1
-
-T = S + 1
-
-print(T)
+pre = 1
+res = [1]
+prod = 1
+for i in range(0, len(nums)-1):
+    prod *= nums[i]
+    res.append(prod)
+    
+    
+for i in range(len(nums), 1, -1):
+    res[i] *= nums[i]
+    res.append
+    
+print(res)
