@@ -1,3 +1,2 @@
-n = 1000
+s = "babad"
 
-print(len(n))
