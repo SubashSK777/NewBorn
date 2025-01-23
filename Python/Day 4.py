@@ -1,6 +1,4 @@
-s = "babad"
-
-l = 0
-r = len(s)
-
-print(s[r::-1]) 
+x1 = 
+x2 = 
+v1 = 
+v2 = 
