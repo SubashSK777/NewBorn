@@ -7,8 +7,8 @@ class LiLi:
   def __init__(self, head = None):
     self.head = head
     
-  def insert_athead(self, data):
-    new_node = Node(data)
+  def insert_athead(self, data, head):
+    new_node = Node(data, head)
     
     
     
