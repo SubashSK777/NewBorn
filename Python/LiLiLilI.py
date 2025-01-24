@@ -8,3 +8,5 @@ class LiLi:
     self.head = head
     
     
+lits = LiLi()
+
