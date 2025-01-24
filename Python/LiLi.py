@@ -10,3 +10,8 @@ misty = [i**2 for i in range(21)]
 # print(misty)
 
 s = "osamaIQbudn wiwBUBus"
+
+vow_isty = set()
+
+for i in s:
+  if s in
