@@ -29,7 +29,8 @@ s = s.split()
 for i in s:
   dicti[i] = len(i)
   
-sml_dict = {i : }
+sml_dict = {i : len(i) for i in s}
 
   
 print(dicti)
+print(sml_dict)
