@@ -4,5 +4,6 @@ class Node:
     self.next = None
     
     
-
+class LinkedList:
+  
     
