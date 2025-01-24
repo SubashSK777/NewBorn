@@ -18,7 +18,6 @@ for i in s:
   if i in "aeiouAEIOU":
     vow_isty.add(i)
     
+# print(vow_isty)
+# print(vowwa_sml)
 
-    
-print(vow_isty)
-print(vowwa_sml)
