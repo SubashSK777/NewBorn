@@ -12,9 +12,12 @@ misty = [i**2 for i in range(21)]
 s = "osamaIQbudn wiwBUBus"
 
 vow_isty = set()
+vowwa_sml = set()
 
 for i in s:
-  if s in "aeiouAEIOU":
-    vow_isty.add(s[i])
+  if i in "aeiouAEIOU":
+    vow_isty.add(i)
+    
+
     
 print(vow_isty)
