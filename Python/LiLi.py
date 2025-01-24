@@ -21,3 +21,7 @@ for i in s:
 # print(vow_isty)
 # print(vowwa_sml)
 
+s = "muah wuah cuis iormun aowi kfjg"
+dict = {}
+
+s = s.plit
