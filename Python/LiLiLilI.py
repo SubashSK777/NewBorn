@@ -3,5 +3,8 @@ class Node:
     self.data = data
     self.next = None
     
-class LiList
+class LiList:
+  def __init__(self, head):
+    
+    
     
