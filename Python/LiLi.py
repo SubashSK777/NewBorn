@@ -14,4 +14,7 @@ s = "osamaIQbudn wiwBUBus"
 vow_isty = set()
 
 for i in s:
-  if s in
+  if s in "aeiouAEIOU":
+    vow_isty.add(s[i])
+    
+print(vow_isty)
