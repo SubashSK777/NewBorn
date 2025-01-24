@@ -1,5 +1,4 @@
-s = "12"
+listy = []
 
-if s == "12":
-  s = "00"
-print (s)
+for i in range(20):
+  
