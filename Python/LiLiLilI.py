@@ -7,7 +7,9 @@ class LiLi:
   def __init__(self, head = None):
     self.head = head
     
+  
+    
     
 lits = LiLi()
 
-li
+lits
