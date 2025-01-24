@@ -22,6 +22,11 @@ for i in s:
 # print(vowwa_sml)
 
 s = "muah wuah cuis iormun aowi kfjg"
-dict = {}
+dicti = {}
 
-s = s.plit
+s = s.split()
+
+for i in s:
+  dicti[i] = len(i)
+  
+print(dicti)
