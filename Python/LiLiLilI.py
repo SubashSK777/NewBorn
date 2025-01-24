@@ -8,6 +8,7 @@ class LiLi:
     self.head = head
     
   def insert_athead(self, data):
+    new_node = Node(data)
     
     
     
