@@ -5,6 +5,6 @@ class Node:
     
 class LiList:
   def __init__(self, head):
-    
+    self.head = None
     
     
