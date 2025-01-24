@@ -3,3 +3,8 @@ class Node:
     self.data = data
     self.next = next
     
+class LiLi:
+  def __init__(self, head = None):
+    self.head = head
+    
+    
