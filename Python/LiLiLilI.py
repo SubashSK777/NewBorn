@@ -10,3 +10,4 @@ class LiLi:
     
 lits = LiLi()
 
+li
