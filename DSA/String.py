@@ -13,5 +13,9 @@
 # else:
 #   print("False")
 
-s = ""
+s = "ab - cd"
+
+n = len(s) - 1
+
+
   
