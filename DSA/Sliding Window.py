@@ -13,5 +13,8 @@ for i in range(k, n):
   curr_sum += arr[i]
   curr_sum -= arr[n - k]
   
-  max_avg = 
+  avg = curr_sum / n
+  max_avg = max(max_avg, avg)
+  
+print(max_)
   
