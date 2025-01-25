@@ -14,7 +14,7 @@ for i in range(k, n):
   curr_sum -= arr[n - k]
   
   new_sum = curr_sum 
-  max_sum = max(max_sum, avg)
+  max_sum = max(max_sum, new_sum)
   
-print(max_avg)
+print(max_sum)
   
