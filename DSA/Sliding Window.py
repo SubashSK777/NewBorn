@@ -7,14 +7,14 @@ curr_sum = 0
 for i in range(k):
   curr_sum += arr[i]
   
-max_avg = curr_sum / n
+max_sum = curr_sum 
 
 for i in range(k, n):
   curr_sum += arr[i]
   curr_sum -= arr[n - k]
   
-  avg = curr_sum / n
-  max_avg = max(max_avg, avg)
+  new_sum = curr_sum 
+  max_sum = max(max_sum, avg)
   
-print(max_)
+print(max_avg)
   
