@@ -13,10 +13,19 @@
 # else:
 #   print("False")
 
-s = "ab - cd"
+# s = "ab - cd"
 
-n = len(s) - 1
+# n = len(s) - 1
 
-for i in range(n, -1, -1):
-  print(s[i], end="")
+# for i in range(n, -1, -1):
+#   print(s[i], end="")
+
+
+# s = "manu"
+# n = len(s)
+# res = []
+
+# for i in range(n):
+  
+m = 12  
   
