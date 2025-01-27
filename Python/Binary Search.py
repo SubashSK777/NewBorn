@@ -1,5 +1,5 @@
 arr = [1, 3, 5, 7, 9, 11, 13, 15]
-target = 15
+target = 10
 
 def binary_search(arr, target):
   left, right = 0, len(arr) - 1
@@ -13,7 +13,7 @@ def binary_search(arr, target):
       right = mid - 1
     else:
       left = mid + 1
-  return "Not Found"
+  return mid
 
 
 print(binary_search(arr, target))
