@@ -8,8 +8,16 @@ def binary_search(arr, target):
     mid = (left + right) // 2
     
     if arr[mid] == target:
-      print(mid)
+      return mid
     elif arr[mid] > target:
+      right = mid - 1
+    else:
+      left = mid + 1
+  return "Not Found"
+
+
+print(binary_search(arr, target))
+      
       
   
 
