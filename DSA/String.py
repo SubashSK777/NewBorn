@@ -27,8 +27,5 @@
 
 # for i in range(n):
   
-nums = [0,1,0,3,12]
+s = "abc"
 
-s = 6
-print(f"{s:#6f}")
-  
