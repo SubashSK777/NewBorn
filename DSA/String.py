@@ -28,5 +28,7 @@
 # for i in range(n):
   
 nums = [0,1,0,3,12]
-print(len(nums))
+
+s = 6
+print(f"{s}:.6f")
   
