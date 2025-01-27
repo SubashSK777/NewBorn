@@ -7,6 +7,9 @@ def binary_search(arr, target):
   while left <= right:
     mid = (left + right) // 2
     
-    if arr[mid]
+    if arr[mid] == target:
+      print(mid)
+    elif arr[mid] > target:
+      
   
 
