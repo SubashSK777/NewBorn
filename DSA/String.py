@@ -29,3 +29,6 @@
   
 s = "abc"
 
+n = 3
+
+print(n >= len(s))
