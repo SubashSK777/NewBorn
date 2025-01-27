@@ -27,5 +27,6 @@
 
 # for i in range(n):
   
-m = 12  
+nums = [0,1,0,3,12]
+print(len(nums))
   
