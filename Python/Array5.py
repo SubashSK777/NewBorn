@@ -1,4 +1,4 @@
-bol = [True, True, True, True, True, False, False, False, False]
+bol = [False, True, True, True, True, False, False, False, False]
 
 l = 0
 r = len(bol) - 1
@@ -9,4 +9,8 @@ while l < r:
   if bol[m] == True:
     r = m
     
+  else:
+    l = m - 1
+    
+print(l)
     
