@@ -9,6 +9,9 @@ r = len(nums) - 1
 while l <= r:
   m = (l + r) // 2
   
-  if nums[m] * nums
+  if nums[m] * nums[m] == target:
+    print(m)
+  
+  elif 
   
 
