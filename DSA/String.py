@@ -27,8 +27,10 @@
 
 # for i in range(n):
   
-s = "abc"
+# s = "abc"
 
-n = 3
+# n = 3
 
-print(n >= len(s))
+# print(n >= len(s))
+
+
