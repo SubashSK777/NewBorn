@@ -12,6 +12,12 @@ while l <= r:
   if nums[m] * nums[m] == target:
     print(m)
   
-  elif 
+  elif nums[m] * nums[m] > target:
+    r = m - 1
+    
+  else:
+    l = m + 1
+    
+print(l)
   
 
