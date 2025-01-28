@@ -10,7 +10,7 @@ while l < r:
     r = m
     
   else:
-    l = m - 1
+    l = m + 1
     
 print(l)
     
