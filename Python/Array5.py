@@ -11,6 +11,7 @@ while l <= r:
   
   if nums[m] * nums[m] == target:
     print(m)
+    break
   
   elif nums[m] * nums[m] > target:
     r = m - 1
