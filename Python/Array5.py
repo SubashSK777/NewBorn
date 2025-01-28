@@ -10,7 +10,7 @@ while l <= r:
   m = (l + r) // 2
   
   if nums[m] * nums[m] == target:
-    print(m)
+    
     break
   
   elif nums[m] * nums[m] > target:
@@ -19,6 +19,6 @@ while l <= r:
   else:
     l = m + 1
     
-print(l)
+print(1//2)
   
 
