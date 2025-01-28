@@ -1,4 +1,4 @@
-bol = [False, True, True, True, True]
+bol = [False, False, False, False, False, True, True, True, True]
 
 l = 0
 r = len(bol) - 1
