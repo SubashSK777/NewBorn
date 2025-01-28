@@ -34,3 +34,5 @@
 # print(n >= len(s))
 
 
+# print(3/1)
+
