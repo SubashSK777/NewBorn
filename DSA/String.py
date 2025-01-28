@@ -36,3 +36,14 @@
 
 # print(3/1)
 
+prev0 = 0
+prev1 = 1
+
+for i in range(18):
+  fibo = prev1 + prev0
+  print(fibo)
+  
+  prev0 = prev1
+  prev1 = fibo
+  
+  
