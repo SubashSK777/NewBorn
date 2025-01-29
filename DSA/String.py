@@ -4,10 +4,11 @@ p = 1
 
 s = 1
 
-res = []
+res = [1]
 
 for i in range(len(arr)):
-  
+  p *= 
+  res.append[p]
   
   
 
