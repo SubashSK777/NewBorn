@@ -4,9 +4,15 @@ pre = 1
 
 pre_res = []
 
-for i in arr:
-  pre *= i
+for i in range(len(arr)):
+  pre *= arr[i]
   pre_res.append(pre)
   
 print(pre_res)
+
+suf = 1
+
+suf_res = [1]
+
+for i in range()
   
