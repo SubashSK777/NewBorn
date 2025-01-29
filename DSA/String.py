@@ -1,12 +1,12 @@
 arr = [1,2,3,4]
 
-suf = 1
+pre = 1
 
-suf_res = []
+pre_res = []
 
 for i in arr:
-  suf *= i
-  suf_res.append(suf)
+  pre *= i
+  pre_res.append(pre)
   
-print(suf_res)
+print(pre_res)
   
