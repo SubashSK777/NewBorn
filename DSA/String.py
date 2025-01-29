@@ -4,5 +4,6 @@ suf = 1
 
 suf_res = []
 
-for i in range(len(arr)):
+for i in arr:
+  
   
