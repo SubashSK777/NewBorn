@@ -6,7 +6,7 @@ res = [1]
 for i in range(len(arr) - 1):
   p *= arr[i]
   res.append(p)
-  
+  print(arr[i])
   
 for i in range(len(arr) - 1, -1, -1):
   s *= arr[i]
