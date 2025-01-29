@@ -4,8 +4,10 @@ p = 1
 
 s = 1
 
-res = [1]
+res = []
 
-for i in range(len(nums)):
+for i in range(len(arr)):
+  
+  
   
 
