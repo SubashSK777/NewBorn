@@ -47,3 +47,6 @@
 #   prev1 = fibo
   
   
+maxi = [1,4,6,8,9,2]
+
+print(max(maxi))
