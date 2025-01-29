@@ -7,9 +7,9 @@ for i in range(len(arr) - 1):
   p *= arr[i]
   res.append(p)
   
-for i in range(len(arr), -1, -1):
+for i in range(len(arr) - 1, -1, -1):
   s *= arr[i]
-  
+  res[i] *= s
   
 print(res)
   
