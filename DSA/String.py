@@ -14,5 +14,6 @@ suf = 1
 
 suf_res = [1]
 
-for i in range()
+for i in range(len(arr), -1, -1):
+  
   
