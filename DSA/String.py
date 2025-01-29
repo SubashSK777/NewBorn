@@ -1,2 +1,11 @@
-s = [1,2,3,4]
+arr = [1,2,3,4]
+
+p = 1
+
+s = 1
+
+res = [1]
+
+for i in range(len(nums)):
+  
 
