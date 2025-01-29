@@ -14,7 +14,11 @@ suf = 1
 
 suf_res = [1]
 
-for i in range(len(arr), -1, -1):
+for i in range(len(arr) - 1, 0, -1):
   suf *= arr[i]
+  suf_res.append(suf)
+  
+print(suf_res)
+  
   
   
