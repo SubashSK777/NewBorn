@@ -10,8 +10,9 @@ for i in range(len(arr) - 1):
 for i in range(len(arr) - 1, -1, -1):
   s *= arr[i]
   res[i] *= s
+  print(i)
   
-print(res)
+print(res[i])
   
   
 
