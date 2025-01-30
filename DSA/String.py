@@ -21,7 +21,7 @@ def lbi_search(arr, target):
   while l < r:
     m = (l + r) // 2
     if arr[m] == target:
-      l = m
+      l = m + 1
     else:
       r = m - 1
   return l
