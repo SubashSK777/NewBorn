@@ -16,7 +16,15 @@ def fbi_search(arr, target):
 
 def lbi_search(arr, target):
   l = 0 
-  r = len(nums)
+  r = len(arr) - 1
+  
+  while l < r:
+    m = (l + r) // 2
+    if arr[m] == target:
+      l = m
+    else:
+      
+      
 
 
 print(fbi_search(arr, target))
