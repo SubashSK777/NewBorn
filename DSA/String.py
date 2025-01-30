@@ -23,8 +23,8 @@ def lbi_search(arr, target):
     if arr[m] == target:
       l = m
     else:
+      r = m - 1
+  return l
       
-      
-
-
 print(fbi_search(arr, target))
+print(lbi_search(arr, target))
