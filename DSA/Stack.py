@@ -9,4 +9,9 @@ class StackArray:
     self.stack.pop(element)
     
   def peek(self):
-    if self.
+    if self.stack.isEmpty:
+      return "Stack is Empty"
+    else:
+      return self.stack[-1]
+    
+  def 
