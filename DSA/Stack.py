@@ -22,16 +22,13 @@ class StackArray:
   def Empty(self):
     return len(self.stack) == 0
   
-  def printer(self):
-    
-  
   
 list1 = StackArray()
 
 list1.add(7)
 list1.add(4)
 list1.add(8)
-print(list1)
+print(list1.stack)
   
   
 
