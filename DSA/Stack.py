@@ -60,6 +60,7 @@ class LiLi:
       return self.head.data
 
   def printer(self):
+    temp = self.next
     
 
 
