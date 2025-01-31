@@ -6,6 +6,7 @@ class Stack:
     self.stack.append(element)
     
   def pop(self, element):
-    self.stack.append(element)
+    self.stack.pop(element)
     
-  def peek(self)
+  def peek(self):
+    if self.isEmpty():
