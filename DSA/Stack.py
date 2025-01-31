@@ -65,6 +65,9 @@ class LiLi:
       print (temp, end=" -> ")
       temp = temp.next
     print("None")
+
+  def length(self):
+    
     
 
 
