@@ -1,4 +1,4 @@
-class Stack:
+class StackArray:
   def __init__(self):
     self.stack = []
     
@@ -25,7 +25,10 @@ class Stack:
   
 list1 = Stack()
 
-list1
+list1.add(7)
+list1.add(4)
+list1.add(8)
+print(list1)
   
   
 
