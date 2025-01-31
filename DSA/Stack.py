@@ -59,7 +59,8 @@ class LiLi:
     else:
       return self.head.data
 
-  def 
+  def printer(self):
+    
 
 
 
