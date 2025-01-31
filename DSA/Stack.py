@@ -10,3 +10,6 @@ class Stack:
     
   def peek(self):
     if self.isEmpty():
+      return "Stack is Empty"
+    else:
+      return self.stack[-1]
