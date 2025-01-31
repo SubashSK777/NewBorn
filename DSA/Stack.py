@@ -35,42 +35,30 @@ class Node:
   def __init__(self, data):
     self.data = data
     self.next = None
-    
-class LinkedLi:
+
+class LiLi:
   def __init__(self):
     self.head = None
-    
-  def push(self, data):
+    self.size = 0
+
+  def insertAtBeginning(self, data):
     new_node = Node(data)
     new_node.next = self.head
     self.head = new_node
-    
-  def pop(self, data):
-    popped = self.head
+    self.size += 1
+
+  def popAtBeginning(self):
+    popped = self.head.data
     self.head = self.head.next
+    self.size -= 1
     return popped
-    
-  def printer(self):
-    temp = self.head
-    while temp:
-      print(temp.data, end=" -> ")
-      temp = temp.next
-    print ("None")
-    
-    
-lili = LinkedLi()
 
-lili.push(5)
-lili.push(3)
-lili.push(9)
-lili.push(10)
+  def peekAtBeginning(self):
+    if self.size == 0:
+      return "Stack is Empty"
+    else:
+      return self.head.data
 
-
-lili.printer()
-
-lili.pop(6)
-
-lili.printer()
 
 
     
