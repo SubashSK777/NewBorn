@@ -5,3 +5,8 @@ class StackArray:
   def add(self, element):
     self.stack.append(element)
     
+  def pop(self, element):
+    self.stack.pop(element)
+    
+  def peek(self):
+    if self.
