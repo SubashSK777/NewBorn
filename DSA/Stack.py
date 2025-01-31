@@ -15,3 +15,4 @@ class Stack:
       return self.stack[-1]
     
   def length(self):
+    return len(self.stack)
