@@ -14,4 +14,8 @@ class StackArray:
     else:
       return self.stack[-1]
     
-  def 
+  def Empty(self):
+    return len(self) == 0
+  
+  def Length(self):
+    if 
