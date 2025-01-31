@@ -10,3 +10,8 @@ element = stack.pop()
 
 print("Pop:", element)
 
+peek = stack[-1]
+
+print("Peek:", peek)
+
+print("Stack:", stack)
