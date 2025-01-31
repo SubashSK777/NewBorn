@@ -16,3 +16,8 @@ class Stack:
     
   def length(self):
     return len(self.stack)
+  
+  def Empty(self):
+    
+  
+  
