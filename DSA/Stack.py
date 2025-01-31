@@ -65,7 +65,13 @@ lili.push(3)
 lili.push(9)
 lili.push(10)
 
+
 lili.printer()
+
+lili.pop(6)
+
+lili.printer()
+
 
     
 
