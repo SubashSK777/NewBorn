@@ -19,4 +19,10 @@ class StackArray:
   
   def Length(self):
     if self.isEmpty():
-      return
+      return "Stack is Empty"
+    else:
+      return len(self)
+    
+list1 = StackArray()
+
+list1 = add(3)
