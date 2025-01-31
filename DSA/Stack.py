@@ -1,3 +1,7 @@
 class StackArray:
   def __init__(self):
-    pass
+    self.stack = []
+    
+  def add(self, element):
+    self.stack.append(element)
+    
