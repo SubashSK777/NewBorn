@@ -2,7 +2,7 @@ class Stack:
   def __init__(self):
     self.stack = []
     
-  def append(self, element):
+  def add(self, element):
     self.stack.append(element)
     
   def pop(self, element):
@@ -18,6 +18,12 @@ class Stack:
     return len(self.stack)
   
   def Empty(self):
-    
+    return len(self.stack) == 0
+  
+  
+list1 = 
+  
+  
+
   
   
