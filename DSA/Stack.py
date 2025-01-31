@@ -67,7 +67,13 @@ class LiLi:
     print("None")
 
   def length(self):
-    
+    return size
+
+  def isEmpty():
+    return size == 0
+
+
+
     
 
 
