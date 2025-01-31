@@ -15,3 +15,7 @@ peek = stack[-1]
 print("Peek:", peek)
 
 print("Stack:", stack)
+
+isEmpty = bool(stack)
+
+print(isE)
