@@ -16,6 +16,6 @@ print("Peek:", peek)
 
 print("Stack:", stack)
 
-isEmpty = bool(stack)
+isEmpty = not bool(stack)
 
-print(isE)
+print(isEmpty)
