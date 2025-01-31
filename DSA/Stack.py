@@ -9,16 +9,16 @@ class StackArray:
     self.stack.pop(element)
     
   def peek(self):
-    if self.isEmpty:
+    if self.isEmpty():
       return "Stack is Empty"
     else:
       return self.stack[-1]
     
-  def Empty(self):
-    return len(self) == 0
+  def isEmpty(self):
+    return len(self.stack) == 0
   
   def Length(self):
-    if self.isEmpty:
+    if self.isEmpty():
       return "Stack is Empty"
     else:
       return len(self)
