@@ -61,6 +61,10 @@ class LiLi:
 
   def printer(self):
     temp = self.next
+    while temp:
+      print (temp, end=" -> ")
+      temp = temp.next
+    print("None")
     
 
 
