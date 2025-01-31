@@ -53,11 +53,13 @@ class LiLi:
     self.size -= 1
     return popped
 
-  def peekAtBeginning(self):
+  def peek(self):
     if self.size == 0:
       return "Stack is Empty"
     else:
       return self.head.data
+
+  def 
 
 
 
