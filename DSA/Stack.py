@@ -13,3 +13,5 @@ class Stack:
       return "Stack is Empty"
     else:
       return self.stack[-1]
+    
+  def length(self):
