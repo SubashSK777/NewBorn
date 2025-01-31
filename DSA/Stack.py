@@ -6,4 +6,7 @@ stack.append(3)
 
 print("Stack:", stack)
 
-stack.pop()
+element = stack.pop()
+
+print("Pop:", element)
+
