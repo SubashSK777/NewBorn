@@ -14,5 +14,7 @@ print(case2)
 
 num1 = 9
 num3  = num1
+
+num3 = num3 - 7
 print(id(num1) , id(num3))
 
