@@ -9,5 +9,8 @@ case1 = ProveSivarajIsWrongAndSubashIsRight()
 case2 = case1
 
 
+print(case1)
+print(case2)
 
+num1 = 
 
