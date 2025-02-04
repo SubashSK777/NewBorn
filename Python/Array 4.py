@@ -12,5 +12,7 @@ case2 = case1
 print(case1)
 print(case2)
 
-num1 = 
+num1 = 9
+num3  = num1
+print(id(num1) , id(num3))
 
