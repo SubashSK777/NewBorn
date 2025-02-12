@@ -6,7 +6,7 @@ quu.append('a')
 quu.append('b')
 quu.append('c')
 quu.append('d')
-quu.pople()
+quu.popleft()
 
 
 print (quu)
