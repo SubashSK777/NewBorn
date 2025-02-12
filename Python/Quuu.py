@@ -8,10 +8,13 @@ def is_pangram(st):
         if ch.isalpha():
             pan_st.add(ch)
             
-    if len(pan_st) == 26:
-        return True
-    else:
-        return False
+    # if len(pan_st) == 26:
+    #     return True
+    # else:
+    #     return False
+
+    print(pan_st)
+    print()
 
 
 is_pangram(st)
