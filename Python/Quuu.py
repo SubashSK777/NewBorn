@@ -1,8 +1,13 @@
-arr = [1,2,3,4,5,6,7,8,9]
+def is_pangram(st):
+    st.lower()
+    pan_st = set()
+    
+    for ch in st:
+        if ch.isalpha():
+            pan_st.add(ch)
+            
+    if len(pan_st) == 26:
+        return True
+    else:
+        return False
 
-l = 0
-r = len(arr) - 1
-
-m = (l + r) // 2
-
-print/9
