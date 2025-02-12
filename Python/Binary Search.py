@@ -23,7 +23,6 @@ def binary_search(arr, target):
       left = mid + 1
   return mid
 
-
 print(binary_search(arr, target))
       
       
