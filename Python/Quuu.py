@@ -1,3 +1,5 @@
+st = 'The quick brown fox jumps over the lazy dog.'
+
 def is_pangram(st):
     st.lower()
     pan_st = set()
@@ -10,4 +12,7 @@ def is_pangram(st):
         return True
     else:
         return False
+
+
+is_pangram(st)
 
