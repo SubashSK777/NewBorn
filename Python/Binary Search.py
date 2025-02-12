@@ -24,7 +24,3 @@ def binary_search(arr, target):
   return mid
 
 print(binary_search(arr, target))
-      
-      
-  
-
