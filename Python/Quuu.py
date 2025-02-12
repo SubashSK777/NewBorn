@@ -1,4 +1,7 @@
 from collections import deque
 
 quu = deque()
-print quu)
+
+quu.append()
+print (quu)
+
