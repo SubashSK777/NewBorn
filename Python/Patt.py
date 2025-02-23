@@ -47,4 +47,5 @@ def mid_tri(n):
 #num_triangle(5)
 #same_num_triangle(5)
 #rev_triangle(5)
-rev_num_tri(5)
+#rev_num_tri(5)
+mid_tri(5)
