@@ -35,7 +35,9 @@ def rev_num_tri(n):
         print()
 
 def mid_tri(n):
-    
+    for i in range(n):
+        for j in range()
+
 
 #square(5)
 #triangle(5)
