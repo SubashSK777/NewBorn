@@ -39,7 +39,7 @@ def mid_tri(n):
         for j in range(i):
             print(" ", end=" ")  # Printing spaces
         
-        for k in range(j):  # j is the last value from previous loop
+        for k in range():  # j is the last value from previous loop
             print("*", end=" ")  # Print stars
         print()  # New line after each row
 
