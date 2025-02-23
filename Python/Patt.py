@@ -43,7 +43,7 @@ def mid_tri(n):
             print("*", end=" ")  # Print stars
         print()  # New line after each row
 
-mid_tri(5)
+mid_tri(5
 
 
 #square(5)
