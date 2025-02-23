@@ -35,15 +35,13 @@ def rev_num_tri(n):
         print()
 
 def mid_tri(n):
-    for i in range(n, -1, -1):
+    for i in range(n):
         for j in range(i):
             print(" ", end=" ")  # Printing spaces
         
         for k in range(j):  # j is the last value from previous loop
             print("*", end=" ")  # Print stars
         print()  # New line after each row
-
-mid_tri(5
 
 
 #square(5)
