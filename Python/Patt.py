@@ -34,15 +34,14 @@ def rev_num_tri(n):
             print(j + 1, end=" ")
         print()
 
-def P(n):
+def Pyramid(n):
     for i in range(n):
         for j in range(n-i-1):
             print(" ", end=" ")  # Printing spaces
         
         for k in range(2 * i + 1):  # j is the last value from previous loop
             print("*", end=" ")  # Print stars
-        print()  # New line after each row
-
+        print() 
 
 #square(5)
 #triangle(5)
@@ -50,4 +49,4 @@ def P(n):
 #same_num_triangle(5)
 #rev_triangle(5)
 #rev_num_tri(5)
-mid_tri(5)
+Pyramid(5)
