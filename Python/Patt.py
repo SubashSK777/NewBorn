@@ -37,11 +37,13 @@ def rev_num_tri(n):
 def Pyramid(n):
     for i in range(n):
         for j in range(n-i-1):
-            print(" ", end=" ")  # Printing spaces
-        
-        for k in range(2 * i + 1):  # j is the last value from previous loop
-            print("*", end=" ")  # Print stars
+            print(" ", end=" ") 
+
+        for k in range(2 * i + 1): 
+            print("*", end=" ") 
         print() 
+
+def rev_p
 
 #square(5)
 #triangle(5)
@@ -49,4 +51,4 @@ def Pyramid(n):
 #same_num_triangle(5)
 #rev_triangle(5)
 #rev_num_tri(5)
-Pyramid(5)
+#Pyramid(5)
